@@ -1,0 +1,59 @@
+/*.index-menu-list a {
+    padding: 0px 15px 0px 15px;
+}*/
+.cpmd2 .container{
+    overflow: hidden;
+}
+.navNowBuy a{border-radius: 54px;}
+.navNowBuy a:hover{
+	background-color: #fff;
+	color:#22b64d;	    
+}
+.navNowBuyA a{border-radius: 54px;}
+.navNowBuyA a:hover{
+	background-color: #fff;
+	color:#22b64d;	    
+}
+.usegrid-txt p{
+    font-size: 18px;
+    color:#2fc065;
+    margin: 0;
+}
+.advProMenu div:nth-child(1) a:hover{
+	background-color: #23ba51;
+}
+.advProMenu div:nth-child(2) a:hover{
+	background-color:#24B882;
+}
+.advProMenu div:nth-child(3) a:hover{
+	background-color:#4AB4AE;
+}
+.advProMenu div:nth-child(4) a:hover{
+	background-color:#32A7CD;
+}
+/*414以下*/
+@media screen and (max-width: 414px){
+	/*重点详情 导航*/
+	.advProMenu div{line-height: 60px;}
+	    /*产品卖点*/
+    .cpmd-title {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .cpmd-title+div{
+        font-size: 10px;
+    }
+    .usegrid-txt{
+        font-size: 10px;
+        line-height: 28px;
+    }
+    .usegrid-txt p{
+        font-size: 14px;
+    }
+    .cpmdList li{
+        font-size: 10px;
+    }
+    .usegrid-ico {
+        text-align: right;
+    }
+}

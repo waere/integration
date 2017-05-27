@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keywords" content="炫卫者,LED手电筒" />
+    <meta name="description" content="深圳市鑫辉光电有限公司" />
+    <meta name="robots" content="index,follow">
+    <link rel="shortcut icon" href="images/sunwayman.ico" type="image/x-icon" />
+    <title>SUNWAYMAN-炫卫者官网-P25C</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/sunwayman.css">
+    <link rel="stylesheet" href="css/modify.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--顶部-->
+    <?php
+        require("inc/header.php");
+    ?>
+
+    <!--产品形象大图-->
+    <div class="products-showBox" id="products-showBox">
+        <!--形象图-->
+        <div class="pro-show-imgBox">
+            <img data-original="images/P25C/P25C-001.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-001-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:20%;left:10%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="color: #23b94e;font-size: 30px;line-height: 60px;font-weight:600;" data-wow-duration="0.5s" data-wow-delay="0s">P25C</div>
+            <div class="wow fadeInUp" style="font-size: 36px;line-height: 60px;font-weight:600;" data-wow-duration="0.5s" data-wow-delay="0.5s">1000流明侧按随身“闪电小子”</div>
+            <div class="wow fadeInUp" style="font-size: 20px;line-height: 50px;" data-wow-duration="0.5s" data-wow-delay="0.8s"> </div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.2s"><a href="#详情">产品详情</a></div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="color: #0da851;font-size: 32px;font-weight: 600;margin-top: 0;" data-wow-duration="0.5s" data-wow-delay="0s">P25C</h3>
+            <h2 class="wow fadeInUp" style="font-size: 20px;margin-top: 0;" data-wow-duration="0.5s" data-wow-delay="0.5s">1000流明侧按随身“闪电小子”</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="margin-top: 50px;"><a href="#" style="border-bottom: 1px solid #0da851;padding-bottom: 10px;">产品详情</a></p>
+        </div>
+    </div>
+    <!--产品详情页菜单-->
+    <div class="pro-menu-box" id="prMenuBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
+                    P25C
+                </div>
+                <div class="col-md-6 proMenu">
+                    <div><a href="#详情">详情</a></div>
+                    <div><a href="#卖点">卖点</a></div>
+                    <div><a href="#使用">使用</a></div>
+                    <div><a href="#参数">参数</a></div>
+                    <div><a href="#配件">配件</a></div>
+                    <div class="index-jdp-box">
+                        <a href="http://item.jd.com/11544285954.html" target="view_window">
+                            <span class="hidden-xs">购买</span>
+                            <img src="images/buycarIco.png" />
+                        </a>  
+                    </div>
+                    <div class="index-lang-box">
+                        <a href="javascript:pageScroll();" class="hidden-xs">回到顶部</a>
+                        <a href="javascript:pageScroll();" class="hidden-sm hidden-md hidden-lg">TOP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--产品详情1-->
+    <div id="详情" class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-002.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-002-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:30%;left:10%;text-align:left;position:absolute;color:#000;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                尾按双按键设计
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom:10px;line-height: 60px; background:url(images/hei.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                DOUBLE PRESS BUTTON DESIGN
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                风靡业界的侧按,尾按双按键设计<br/>尾按锁定开关机，侧按一键实现七档调光，照明顺心顺手
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;top:70%;text-align:center;position: absolute;color: #000;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">尾按双按键设计</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/hei-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">DDOUBLE PRESS BUTTON DESIGN</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                风靡业界的侧按,尾按双按键设计<br/>尾按锁定开关机，侧按一键实现七档调光，照明顺心顺手
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
+        </div>        
+    </div>
+        <!--产品详情2-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-003.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-003-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aR hidden-xs" style="width:75%;overflow:hidden;top:30%;right:8%;text-align:right;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                军工级硬质氧化膜
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat right bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                MILITARY GRADE HARD OXIDE FILM
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                亲肤般的触感，极具人文气质<br/>同时，有效的隔断汗水和其它腐蚀性液体对手电的腐蚀<br/>耐磨、导汗、长寿命
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe6f8; </span>
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe6f6;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:15%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">军工级硬质氧化膜</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">MILITARY GRADE HARD OXIDE FILM</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height:2;">
+                亲肤般的触感，极具人文气质<br/>同时，有效的隔断汗水和其它腐蚀性液体对手电的腐蚀<br/>耐磨、导汗、长寿命
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe6f8;</span>
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe6f6;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品详情3-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-004.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-004-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:25%;left:10%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                精选LED核心
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom:10px;line-height: 60px; background:url(images/bai.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                SELECT LED CORE
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                清亮的优质金属光杯，映照出嫩黄色的LED核心，是如此的可爱，爱不释手<br/>精选CREE XM-L2 U2 LED核心，最高亮可达1000流明
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe704; </span>
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe706;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;top:55%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">精选LED核心</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">SELECT LED CORE</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                清亮的优质金属光杯，映照出嫩黄色的LED核心，是如此的可爱，爱不释手<br/>精选CREE XM-L2 U2 LED核心，最高亮可达1000流明
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe704;</span>
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe706;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品详情4-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-005.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-005-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aR hidden-xs" style="width:75%;overflow:hidden;top:20%;text-align:right;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                尾部双键式明星级设计
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom:10px;line-height: 60px; background:url(images/bai.png) no-repeat right bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                TAIL DOUBLE BOND STAR DESIGN
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                P25C采用业界最为流行的侧按、尾按双键式明星级设计<br/>
+                单手即可调出四个常亮、三个闪烁档位，满足您各种场合的照明需求<br/>波浪形尾部加工设计，即可保证在戴手套的时候方便操作
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe6de;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">尾部双键式明星级设计</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">TAIL DOUBLE BOND STAR DESIGN</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                P25C采用业界最为流行的侧按、尾按双键式明星级设计<br/>
+                单手即可调出四个常亮、三个闪烁档位，满足您各种场合的照明需求<br/>波浪形尾部加工设计，即可保证在戴手套的时候方便操作
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe6de;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品详情5-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-006.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-006-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:30%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                智能低电压保护
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                INTELLIGENT LOW VOLTAGE PROTECTION
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                智能低电压保护功能 当使用3.7V锂电池时电压降到2.8V<br/>LED闪烁几次后自动关机，保护电池不过放<br/>高档不锈钢手电抱夹，可牢靠挂于背包、口袋等位置 XM-L2核心
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe6e9;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:5%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">智能低电压保护</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">INTELLIGENT LOW VOLTAGE PROTECTION</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height:2;">
+                智能低电压保护功能 当使用3.7V锂电池时电压降到2.8V<br/>LED闪烁几次后自动关机，保护电池不过放<br/>高档不锈钢手电抱夹，可牢靠挂于背包、口袋等位置 XM-L2核心
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe6e9;</span>
+            </div>
+        </div>        
+    </div>
+
+        <!--产品卖点部分-->
+    <div id="卖点" class="cpmd">
+        <div class="container">
+            <!--卖点标题-->
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+            <div class="row">
+                <div class="col-xs-9">
+                    <div class="cpmd-title">P25C 产品卖点</div>
+                    <div>首页/产品中心/P25C/卖点</div>
+                </div>
+                <div class="col-xs-3 cpmd-titleIco">
+                    <span class="iconfont">&#xe61e;</span>
+                </div>
+            </div>
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+        </div>
+    </div>
+    <div class="cpmd2">
+        <div class="container">
+            <!--卖点列表-->
+            <div class="row cpmdList">
+                <ul>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        恒流电路，亮度恒定
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        有效射程达208米
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        使用一节18650电池电池或者两节CR123A电池
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        采用优质金属光面反光杯，兼顾聚光和泛光，光斑完美。
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        体积：141mm (长) x25.4mm(头部直径)x25mm（尾部直径）
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        重量：90g（不含电池）
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        采用航天级铝合金制造，头部不锈钢压环
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        军规三级硬质氧化
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        IPX-8级防水
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        增韧超清晰钢化镀膜镜片，防刮耐磨
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        战术开关，可瞬间点亮
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        工作电压：2.8~8.4V
+                    </li>
+                    <li class="col-xs-12 col-sm-6">
+                        <span class="iconfont"></span>
+                        附件：防水O圈、手绳、抱夹
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!--产品卖点图片1-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-007.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-007-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:25%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                恒流电路，亮度恒定
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom:10px;line-height: 60px; background:url(images/bai.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                ALL INCLUSIVE 
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                恒流电路，亮度恒定，不闪烁，不伤眼，人性化照明<br/>
+                全球一流智能记忆芯片，自动记忆上次关机时的亮度，贴心呵护
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe708; </span>
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe70b;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:3%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">恒流电路，亮度恒定</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">ALL INCLUSIVE</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                恒流电路，亮度恒定，不闪烁，不伤眼，人性化照明<br/>
+                全球一流智能记忆芯片，自动记忆上次关机时的亮度，贴心呵护
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe708;</span>
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe70b;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品卖点图片2-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-008.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-008-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aC hidden-xs" style="width:100%;overflow:hidden;top:50%;text-align:center;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                筒身精密化设计
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                CYLINDER BODY PRECISION DESIGN
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                筒身防滚动设计，即可扩大散热面积，也可可靠的置于于坡面，正常工作<br/>筒身精密化设计和加工，可能是体积最小的18650电池手电，便于握取和携带
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe700; </span>
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe702; </span>
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe703;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">筒身精密化设计</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">CYLINDER BODY PRECISION DESIGN</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                筒身防滚动设计，即可扩大散热面积，也可可靠的置于于坡面，正常工作<br/>筒身精密化设计和加工，可能是体积最小的18650电池手电，便于握取和携带 
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe700;</span>
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe702;</span>
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe703;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品卖点图片3-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-009.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-009-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aR hidden-xs" style="width:75%;overflow:hidden;top:20%;right:8%;text-align:right;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                IPX-8防水标准
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat right bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                IPX-8 WATERPROOF STANDARD
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                非常适合户外摄影、搜索、露营等<br/>多种照明需求，还可以作为馈赠之佳品
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe716;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:5%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">IPX-8防水标准</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">IPX-8 WATERPROOF STANDARD</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height:2;">
+                非常适合户外摄影、搜索、露营等<br/>多种照明需求，还可以作为馈赠之佳品
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe716;</span>
+            </div>
+        </div>        
+    </div>
+        <!--产品卖点图片4-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-010.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-010-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:30%;left:10%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+               高档头灯带
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom:10px;line-height: 60px; background:url(images/bai.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                HIGH GRADE HEADLAMPS
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                配合SUNWAYMAN高档头灯带，可作为头灯使用，有效拓展使用范围
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"> </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">高档头灯带</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">HIGH GRADE HEADLAMPS</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                配合SUNWAYMAN高档头灯带，可作为头灯使用，有效拓展使用范围
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
+        </div>        
+    </div>
+        <!--产品卖点图片5-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-011.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-011-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aR hidden-xs" style="width:100%;overflow:hidden;top:20%;text-align:right;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                尾部倒立
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat right bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                USER FRIENDLY DESIGN
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                比蜡烛稳定，安全又实用<br/>尾部平整，可以倒立于水平面，充当蜡烛使用
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:80px;color:#009a44;">&#xe6dd;</span>
+            </div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">尾部倒立</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">USER FRIENDLY DESIGN</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height: 2;">
+                比蜡烛稳定，安全又实用<br/>尾部平整，可以倒立于水平面，充当蜡烛使用
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
+                <span class="iconfont" style="font-size:40px;color:#009a44;">&#xe6dd;</span>
+            </div>
+        </div>        
+    </div>
+    
+
+        <!--产品使用说明-->
+    <div id="使用" class="cpmd">
+        <div class="container">
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+            <div class="row">
+                <div class="col-xs-9">
+                    <div class="cpmd-title">P25C 使用说明</div>
+                    <div>首页/产品中心/P25C/使用</div>
+                </div>
+                <div class="col-xs-3 cpmd-titleIco">
+                    <span class="iconfont">&#xe61f;</span>
+                </div>
+            </div>
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+        </div>
+    </div>
+    <div class="cpmd2">
+        <div class="container">
+            <div class="row usegrid">
+                <div class="col-xs-12 col-sm-9 usegrid-txt">
+                    <p>战术点亮</p>
+                    轻按尾部开关，电筒会开启，松手电筒熄灭<br/><br/>
+                    <p>开启/关闭手电筒</p>
+                    开启手电筒：按下尾部按钮开关，直到有“嗒”的一声后松手，手电筒开启。<br/>关闭手电筒：再次按下尾部按钮开关，直到有“嗒”的一声后松，手电筒关闭。<br/><br/>
+                    <p>亮度调节</p>
+                    在电筒开启状态下，每按一次调档按钮，电筒亮度将按照“低亮-中亮-高亮-极高亮”循环改变亮度。<br/>注: 电筒会在开启极高亮档3分钟后自动降低亮度输出以防过热，并有效地保障电池的使用寿命<br/><br/>
+                    <p>使用特殊档位（暴闪/SOS功能/信标）</p>
+                    在电筒开启状态下，长按调档按钮超过一秒，电筒将会开启爆闪，如果需要选择更多的特殊档位，只需要长按调档按钮超过一秒即可在“爆闪---SOS---信标功能”顺序切换。如果需要退出特殊档位并恢复当前亮度，只需按一下调档按钮。<br/><br/>注: P25C具有自动记忆功能，再次激活电筒将自动进入已选亮度或档位（SOS和信标功能除外）
+                </div>
+                <div class="col-xs-12 col-sm-3 usegrid-ico">
+                    <span class="iconfont">&#xe620; </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--使用说明展示图片1-->
+    <div class="p-detailBox">
+        <!--图片部分-->
+        <div class="p-detailImgBox">
+            <img data-original="images/P25C/P25C-012.jpg" class="img-responsive hidden-xs">
+            <img data-original="images/P25C/P25C-012-s.jpg" class="img-responsive visible-xs-inline">
+        </div>
+        <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
+        <div class="aL hidden-xs" style="width:75%;overflow:hidden;top:20%;right:8%;text-align:left;position:absolute;color:#fff;">
+            <div class="wow fadeInUp" style="font-size: 26px;" data-wow-duration="0.5s" data-wow-delay="0s">
+                尾按操作方法
+            </div>
+            <div class="wow fadeInUp" style="font-size: 20px;padding-bottom: 10px;line-height: 60px; background:url(images/bai.png) no-repeat left bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                TAIL PRESS OPERATION METHOD
+            </div>
+            <div class="wow fadeInUp" style="font-size: 14px;line-height: 2;margin-top:20px;margin-bottom: 10px;" data-wow-duration="0.5s" data-wow-delay="0.8s">开关手电：深按尾部按钮，听到“卡塔”一声，即可点亮手电；<br/>再次深按尾部按钮，听到“卡塔”一声，弹出按钮，即可关闭手电<br/>档位切换：点亮状态下，轻按尾部按钮，即可实现调光，两档一次循环
+            </div>
+            <div class="hidden-xs hidden-sm wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
+        </div>       
+        <!--文字动画框手机-->
+        <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:60%;text-align:center;position: absolute;color: #fff;">
+            <h3 class="wow fadeInUp" style="font-size: 18px;margin-top: 0;margin-bottom: 3px;" data-wow-duration="0.5s" data-wow-delay="0s">尾按操作方法</h3>
+            <h2 class="wow fadeInUp" style="font-size: 10px;margin-top: 0;margin-bottom: 10px;line-height:34px;background:url(images/bai-s.png) no-repeat center bottom" data-wow-duration="0.5s" data-wow-delay="0.5s">TAIL PRESS OPERATION METHOD</h2>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="padding-left:10px;padding-right:10px;font-size: 10px;line-height:2;">
+                开关手电：深按尾部按钮，听到“卡塔”一声，即可点亮手电；<br/>再次深按尾部按钮，听到“卡塔”一声，弹出按钮，即可关闭手电<br/>档位切换：点亮状态下，轻按尾部按钮，即可实现调光，两档一次循环
+            </p>
+            <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
+        </div>        
+    </div>
+
+        <!--产品参数-->
+    <div id="参数" class="cpmd">
+        <div class="container">
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+            <div class="row">
+                <div class="col-xs-9">
+                    <div class="cpmd-title">P25C 产品参数</div>
+                    <div>首页/产品中心/P25C/参数</div>
+                </div>
+                <div class="col-xs-3 cpmd-titleIco">
+                    <span class="iconfont">&#xe621;</span>
+                </div>
+            </div>
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+        </div>
+    </div>
+    <div class="cpmd2">
+        <div class="container">
+            <div class="row proDetail-imgbox">
+                <div class="col-xs-12" style="text-align:center;margin-bottom: 60px;">
+                    <img src="images/P25C/P25C-013.png" class="img-responsive" style="display:inline;">
+                </div>
+            </div>
+            <div class="row proDetail">
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe634;</i>
+                    <span>筒身长度 130mm</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe636;</i>
+                    <span>头部直径 14 mm</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe635;</i>
+                    <span>尾部直径 14 mm</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe637;</i>
+                    <span>Cree XM-L2 U2 LED</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe638;</i>
+                    <span>最大输出 1000 流明</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe639;</i>
+                    <span>最大射程 208米</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63a;</i>
+                    <span>材质  铝合金</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63b;</i>
+                    <span>产品重量 90g（不含电池）</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63c;</i>
+                    <span>使用电池 1x18650，2x CR123A</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63d;</i>
+                    <span>续航时间 84流明（12个小时）</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63e;</i>
+                    <span>IPX-8级防水</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe63f;</i>
+                    <span>光杯种类 光面</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe640;</i>
+                    <span>特殊模式 SOS, 信标, 暴闪</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe641;</i>
+                    <span>色温类型 白光</span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                    <i class="iconfont">&#xe642;</i>
+                    <span>应用场景 工具, 户外/露营, 搜索</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--产品配件-->
+    <div id="配件" class="cpmd">
+        <div class="container">
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+            <div class="row">
+                <div class="col-xs-9">
+                    <div class="cpmd-title">P25C 产品配件</div>
+                    <div>首页/产品中心/P25C/配件</div>
+                </div>
+                <div class="col-xs-3 cpmd-titleIco">
+                    <span class="iconfont">&#xe622; </span>
+                </div>
+            </div>
+            <div class="row hidden-xs" style="height:50px;"></div>
+            <div class="row visible-xs-block" style="height:20px;"></div>
+        </div>
+    </div>
+    <div class="cpmd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="p-detailImgBox">
+                        <img data-original="images/P25C/P25C-014.jpg" class="img-responsive hidden-xs">
+                        <img data-original="images/P25C/P25C-014-s.jpg" class="img-responsive visible-xs-inline">
+                    </div>
+                    <!-- <img src="images/C13R-000x.jpg" class="img-responsive"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+	    <!--底部分类翻转-->
+    <?php
+        require("inc/psixpic.php");
+    ?>
+
+    <!--底部共用-->
+    <?php
+        require("inc/footer.php");
+    ?>
+    <!--移动端菜单-->
+    <?php
+        require("inc/smenu.php");
+    ?>
+    
+    <!--脚本-->
+    <script type="text/javascript" src="js/jquery.min.1.12.4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/vue.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/iscroll.js"></script>
+    <script type="text/javascript" src="js/mc.public.js"></script>
+    <script type="text/javascript" src="js/mc.npage.js"></script>
+</body>
+</html>
