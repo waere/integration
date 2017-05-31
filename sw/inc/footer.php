@@ -5,7 +5,7 @@
                 <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 public-bottom-searchBox">
                     <form action="search.php" method="get">
                         <input type="text" name="bottomsearch" id="bottomsearch" placeholder="请输入关键词搜索......" />
-                        <input type="submit" value="SIGN UP">
+                        <input type="submit" value="SEARCH">
                     </form>                    
                 </div>
             </div>            
