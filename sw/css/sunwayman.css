@@ -133,7 +133,14 @@ a:visited{
     top: 40%;
     left: 25%;
 }
-.difftop{top:18%;}
+.difftop{
+    top:40%;
+    text-align: center;
+}
+.difftop img{
+    width: 80%;
+    margin:0 auto;
+}
 .sliderOther01BoxBtn{
     width: 50%;
     position: absolute;
@@ -141,7 +148,7 @@ a:visited{
     left: 25%;
     text-align: center;
 }
-.diffbottom{bottom: 60%;}
+.diffbottom{bottom: 40%;}
 .sliderOther01BoxBtn a{
     padding: 10px 20px 10px 20px;
     border: 2px solid #fff;
