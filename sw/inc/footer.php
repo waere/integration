@@ -45,7 +45,7 @@
                     <div class="col-md-5 col-xs-12 public-bottom-link">
                         <a href="#">隐私权政策</a> | 
                         <a href="#">使用条款</a> | 
-                        <a href="#">免责声明</a>
+                        <a href="law.php">免责声明</a>
                     </div>
                     <div class="col-md-2 hidden-xs hidden-sm hidden-md iconfont public-bottom-goIndex">
                         <a href="#">&#xe76d; 返回首页</a>

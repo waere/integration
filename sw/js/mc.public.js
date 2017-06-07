@@ -362,19 +362,15 @@ var bottomNavObj = {
         },
         {
             dtTitle:'教育',
-            dtUrl:'#',
+            dtUrl:'education.php',
             ddLits:[
                 {
                     ddName:'常见问题',
-                    ddUrl:'#'
-                },
-                {
-                    ddName:'视频讲座',
-                    ddUrl:'#'
+                    ddUrl:'education.php'
                 },
                 {
                     ddName:'相关知识',
-                    ddUrl:'#'
+                    ddUrl:'education.php'
                 }
             ]
         }
