@@ -275,6 +275,22 @@ var proListObj = {
           bimg:'images/2-product-4.png', 
           cpdes:'EDC探密',
           plist:[
+            {
+                  ptitle:'C12CC',
+                  pdec:'<p>迷你双灯820流明手电筒</p><p>采用航天级铝合金制造</p><p>军规三级硬质氧化</p>',
+                  pimg:'images/p-C12CC.png',
+                  pnew:true,
+                  phot:true,
+                  pbright:'最高亮度：<span>820 流明</span>',
+                  prange:'最大射程：<span>210 米</span>',
+                  pweight:'手电重量：<span>124g</span>',
+                  pusetime:'续航时间：<span>35流明，续航10小时</span>',
+                  pled:'LED：<span>Cree XM-L2 U2 LED，CREE XP-G2 R5 LED</span>',
+                  pbretty:'使用电池：<span>2xCR123A/18650</span>',
+                  pmoreurl:'C12CC.php',
+                  pbuyurl:'http://sunwayman.jd.com',
+                  pdburl:''
+              },
               {
                   ptitle:'T16R',
                   pdec:'<p>明镜 · 智芯 · 致精巧</p><p>钥匙扣级手电</p><p>高品质航空T6级铝材</p>',
@@ -330,6 +346,22 @@ var proListObj = {
           bimg:'images/2-product-2.png', 
           cpdes:'便携户外',
           plist:[
+            {
+                  ptitle:'C22CC',
+                  pdec:'<p>迷你双灯手电筒820流明</p><p>采用航天级铝合金制造</p><p>军规三级硬质氧化</p>',
+                  pimg:'images/p-C22CC.png',
+                  pnew:true,
+                  phot:true,
+                  pbright:'最高亮度：<span>820 流明</span>',
+                  prange:'最大射程：<span>310 米</span>',
+                  pweight:'手电重量：<span>48.8g</span>',
+                  pusetime:'续航时间：<span>35流明，续航42小时</span>',
+                  pled:'LED：<span>Cree XM-L2 U2 LED，CREE XP-G2 R5 LED</span>',
+                  pbretty:'使用电池：<span>2xCR123A/18650</span>',
+                  pmoreurl:'C22CC.php',
+                  pbuyurl:'http://sunwayman.jd.com',
+                  pdburl:''
+              },
               {
                   ptitle:'C22C',
                   pdec:'<p>业界领先，手电、L型灯和谐统一</p><p>380流明 双灯同亮“夜行者</p><p>梯形螺纹，顺滑可靠</p>',
@@ -571,7 +603,7 @@ var proListObj = {
                   pusetime:'续航时间：<span>低亮30流明(40小时)</span>',
                   pled:'LED：<span>Cree XM-L2 U3 LED</span>',
                   pbretty:'使用电池：<span>1x18650/2xCR123A(RCR123A/16340)</span>',
-                  pmoreurl:'#',
+                  pmoreurl:'M25C-TI.php',
                   pbuyurl:'http://sunwayman.jd.com',
                   pdburl:''
               }

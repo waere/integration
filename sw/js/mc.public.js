@@ -53,6 +53,12 @@ var productsNavObj = {
                 mtitle: "EDC探秘",
                 mdd: [
                     {
+                        mtitle: "C12CC",
+                        murl: "C12CC.php",
+                        mdesc: "迷你双灯手电筒820流明<br>采用航天级铝合金制造<br>军规三级硬质氧化",
+                        mimg: "images/p-C12CC.png"
+                    },
+                    {
                         mtitle: "T16R",
                         murl: "T16R.php",
                         mdesc: "明镜 · 智芯 · 致精巧<br>钥匙扣级手电<br>高品质航空T6级铝材",
@@ -75,6 +81,12 @@ var productsNavObj = {
             {
                 mtitle: "便携户外",
                 mdd: [
+                    {
+                        mtitle: "C22CC",
+                        murl: "C22CC.php",
+                        mdesc: "迷你双灯820流明手电筒<br>采用航天级铝合金制造<br>军规三级硬质氧化",
+                        mimg: "images/p-C22CC.png"
+                    },
                     {
                         mtitle: "C22C",
                         murl: "C22C.php",
@@ -157,7 +169,7 @@ var productsNavObj = {
                 mtitle: "限量收藏",
                 mdd: [
                     {
-                        mtitle: "T16R-CU",
+                        mtitle: "T16R CU",
                         murl: "T16R-CU.php",
                         mdesc: "小霸王980流明掌中宝<br>双键触摸侧按开<br>不锈钢头部压环",
                         mimg: "images/p-T16R.CU.png"
@@ -170,7 +182,7 @@ var productsNavObj = {
                     },
                     {
                         mtitle: "M25C Ti",
-                        murl: "#",
+                        murl: "M25C-TI.php",
                         mdesc: "高档钛合金精雕细琢而成<br>创意轻触钛合金开关<br>最高亮856流明",
                         mimg: "images/p-M25C-Ti.png"
                     }
