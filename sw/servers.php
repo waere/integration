@@ -55,7 +55,7 @@
                 自助服务快捷省时，通过自助服务您可以快速体验寄送快修、预约维修、上门快修等服务。<br />
                 您也可以联系我们客服人员，我们将竭诚为您服务。
             </div>
-            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#更多" style="color:#666666;">了解更多</a></div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#shzhengce" style="color:#666666;">了解更多</a></div>
         </div>       
         <!--文字动画框手机-->
         <div class="visible-xs-inline" style="width:100%;padding:10px;overflow:hidden;top:5%;text-align:center;position: absolute;color: #666666;">
@@ -66,7 +66,7 @@
                 您也可以联系我们客服人员，我们将竭诚为您服务。
             </h2>
             <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                <a href="#更多" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#666666;">了解更多</a>
+                <a href="#shzhengce" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#666666;">了解更多</a>
             </p>
         </div>
     </div>
@@ -126,15 +126,15 @@
     <div class="pro-menu-box" id="prMenuBox">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
+                <div class="col-md-7 proTitle hidden-xs hidden-sm">                    
                     服务与支持
                 </div>
-                <div class="col-md-6 proMenu">
-                    <div><a href="#">服务政策</a></div>
-                    <div><a href="#">产品验证</a></div>
-                    <div><a href="#">申请评测</a></div>
-                    <div style="margin-right: 15px;"><a href="#">产品服务</a></div>
-                    <div class="index-jdp-box" style="flex-grow: 3;">
+                <div class="col-md-5 proMenu">
+                    <div><a href="#shzhengce">服务政策</a></div>
+                    <div><a href="#yanzheng">产品验证</a></div>
+                    <div><a href="#shenqing">申请评测</a></div>
+                    <!-- <div style="margin-right: 15px;"><a href="#xzsq">现在申请</a></div> -->
+                    <div class="index-jdp-box" style="flex-grow: 2;">
                         <a href="#">
                             <span class="hidden-xs">产品服务</span>
                              <span class="iconfont">&#xe60f;</span>
@@ -151,7 +151,7 @@
 
 
     <!--售后服务政策-->
-    <div class="cpmd"  id="更多">
+    <div class="cpmd"  id="shzhengce">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -174,7 +174,7 @@
                 <div class="col-xs-12 BzBigTitle">产品安全保护政策</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in bzList">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.bzT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.bzT}}</div>
                     <transition
                         name="MC03-transition"
                         enter-active-class="animated fadeInUp"
@@ -194,7 +194,7 @@
     </div>
 
     <!--产品验证-->
-    <div class="cpmd">
+    <div class="cpmd" id="yanzheng">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -248,7 +248,7 @@
     </div>
 
     <!--申请测评-->
-    <div class="cpmd">
+    <div class="cpmd" id="shenqing">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -301,7 +301,7 @@
                     <i class="iconfont">&#xe624;</i>
                     <span>体验报告发布要求</span>
                 </div>
-                <div class="col-xs-12 regChePingContent">
+                <div class="col-xs-12 regChePingContent" id="xzsq">
                     体验者在收到产品后争取在二十天内完成评测报告，并将评测报告发布在一家或多家媒体平台上。同时以电子邮件的方式通知sunwayman，告知评测报告发布的媒体平台信息，以便sunwayman 工作人员确认。
                 </div>
             </div>
@@ -312,37 +312,37 @@
                         <div class="form-group">
                             <label for="inputEmail3" class="col-xs-1 control-label">姓名 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">电话 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="tel" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">地址 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">邮箱 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="email" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">链接 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="请提供您之前所发布的测评报告的链接*">
+                            <input type="url" class="form-control" id="inputPassword3" placeholder="请提供您之前所发布的测评报告的链接*">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">报告 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="您将在哪些平台上发布本产品的测评报告*">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="您将在哪些平台上发布本产品的测评报告*">
                             </div>
                         </div>
                         <div class="form-group">
@@ -442,26 +442,36 @@
                 {
                     bzT:'15天包换',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'sunwayman产品自售出之日起15天内，在正常使用情况下，出现产品质量问题，客户可选择更换新品或修理服务，要求更换时，所换产品应为返修产品同型号同规格的新品；如同型号同规格的产品停止生产时，则调换不低于原产品性能的同品牌产品；'
                 },
                 {
                     bzT:'五年免费保修',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'sunwayman产品自售出之日起2年内，用户在正常使用情况下，出现产品质量问题，则享受免费维修服务 '
                 },
                 {
                     bzT:'终身有限保修',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'超过2年免费保修时间外，sunwayman将提供有偿保修，费用以实际更换材料费用为准，不另收取人工费用；'
                 },
                 {
                     bzT:'免费保修',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'免费不适用于以下任一情况: A、因正常磨损而造成缺陷的；B、由于粗暴操作而造成缺陷的；C、电池漏液或电池用错等导致产品缺陷或损害的'
                 },
                 {
                     bzT:'延保服务',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'消费者在Fenixlight Limited官网注册网络版的《质量保证卡》后，产品可获得额外6个月的免费保修期。此延保政策只适用于手电、头灯、自行车灯和营地灯产品。'
                 }
             ]

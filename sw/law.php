@@ -92,7 +92,7 @@
                 <div class="col-xs-12 BzBigTitle">网站的使用</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in fsList1">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.fsT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.fsT}}</div>
                     <transition
                         name="MC03-transition"
                         enter-active-class="animated fadeInUp"
@@ -179,21 +179,29 @@
                 {
                     fsT:'信息发布',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     fsC:'SUNWAYMAN(炫卫者)公司保留所有的权利。所有的文字，图片，照片，音频文件，动画文件，视频文件以及SUNWAYMAN(炫卫者)网站所有的版面设计和其他知识产权均受保护。不可复制用于商业目的或发行，也不可修改后在其他网站使用。一些SUNWAYMAN(炫卫者)网站中的图片版权属于第三方提供者。'
                 },
                 {
                     fsT:'商标',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     fsC:'除非特别指明，SUNWAYMAN(炫卫者)网站的所有商标都在SUNWAYMAN(炫卫者)商标权的范围内。其中包括SUNWAYMAN(炫卫者)公司的每一个品牌系列、手电型号的名字，以及公司的品牌和形象。'
                 },
                 {
                     fsT:'无担保',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     fsC:'由SUNWAYMAN(炫卫者)公司提供的这些信息，并不意味着提供任何质量担保，任何关于机械性能方面的保证，任何特殊用途的有效性以及无损害性。尽管我们提供的这些信息尽可能真实可靠，但实际上也有可能存在错误或不准确之处。'
                 },
                 {
                     fsT:'不予授权',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     fsC:'SUNWAYMAN(炫卫者)一直力求打造一个具有革新性并且信息丰富的网站，真心希望您能成为我们的热心支持者。同时，SUNWAYMAN(炫卫者)也必须保护它的知识产权不受侵害，包括它的专利，商标和版权。因此，在本网站上使用的无论SUNWAYMAN(炫卫者)的知识产权或第三方的知识产权都不被授权在别处使用。'
                 }
             ]

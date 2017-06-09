@@ -92,11 +92,11 @@
                 <div class="col-xs-12 BzBigTitle">一、请问使用过程中，需要注意哪些事项呢？</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in wtList1">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.wtT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.wtT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.wtC"></div>
                     </transition>
@@ -106,11 +106,11 @@
                 <div class="col-xs-12 BzBigTitle">二、手电不能正常点亮或者发生闪烁，如何处理？</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in wtList2">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.wtT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.wtT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.wtC"></div>
                     </transition>
@@ -120,11 +120,11 @@
                 <div class="col-xs-12 BzBigTitle">三、 如何成为SUNWAYMAN的经销商</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in wtList3">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.wtT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.wtT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.wtC"></div>
                     </transition>
@@ -134,11 +134,11 @@
                 <div class="col-xs-12 BzBigTitle">四、如何获得SUNWAYMAN的最新产品信息或者各类活动信息？</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in wtList4">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.wtT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.wtT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.wtC"></div>
                     </transition>
@@ -148,7 +148,7 @@
     </div>
 
     <!-- 手电专业知识 -->
-    <div class="cpmd">
+    <div class="cpmd" id="xgzs">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -171,11 +171,11 @@
                 <div class="col-xs-12 BzBigTitle">SUNWAYMAN的电路</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in zsList1">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.zsT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.zsT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.zsC"></div>
                     </transition>
@@ -185,11 +185,11 @@
                 <div class="col-xs-12 BzBigTitle">SUNWAYMAN的LED技术</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in zsList2">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;">{{item.zsT}}</div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.zsT}}</div>
                     <transition
                         name="MC03-transition"
-                        enter-active-class="animated fadeInUp"
-                        leave-active-class="animated fadeOut"
+                        enter-active-class="animated fadeInDown"
+                        leave-active-class="animated fadeOutUp"
                     >
                     <div class="BzContent" v-if="item.sw" v-html="item.zsC"></div>
                     </transition>
@@ -228,20 +228,6 @@
                 increaseArea: '-10' // optional
             });
         });
-        // 滚动时产品菜单项置顶
-        // $(document).scroll(function(){
-        //     var oft = $(".products-showBox").height();
-        //     var sct = $(document).scrollTop();
-        //     var cz = sct-oft;            
-        //     if(cz >= 60)
-        //     {
-        //         $("#prMenuBox").css({"z-index":99999,"position":"fixed"});
-        //     }
-        //     else
-        //     {
-        //         $("#prMenuBox").css({"z-index":1,"position":"inherit"});
-        //     }    
-        // });
         // 返回页面顶部
         function pageScroll() { 
             $('body').animate({scrollTop: 0}, 500); 
@@ -266,16 +252,22 @@
                 {
                     wtT:'电池使用',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'电池类型：请使用您的手电说明书指定的电池类型，使用充电电池时，请使用带保护电路的充电电池；<br/>电池更换：为了保证手电的使用性能和使用安全，更换电池时，请同时更换同品牌、同型号、同容量的电池，并对准正负极；手电长期不使用时，请将电池取出，以免发生电池漏液，损坏手电元器件。'
                 },
                 {
                     wtT:'防水圈及润滑油',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'手电出厂时防水圈会涂抹适量的润滑油，即可保证润滑延长防水圈的使用寿命，也更利于防水。当您发现您的手电防水圈处润滑油较少或已经没有，旋转螺纹时，有滞涩感，请及时在防水圈处涂抹适量润滑油；手电长期使用以后会发生防水圈磨损，请及时更换包装内附送的防水圈。 '
                 },
                 {
                    wtT:'最高亮档使用',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'您在使用最高亮档位时，电池放电、驱动电路、LED都会产生热量，手电头部会有较高的温度，请小心触摸；另外，使用最高亮档位时，建议一次持续点亮时间不超过十分钟，以保护电池、电路和LED，延长手电的使用寿命。'
                 }
             ],
@@ -283,16 +275,22 @@
                 {
                     wtT:'检查电池',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'如果手电不能正常点亮或者发生闪烁的状况，请检查是否电池电量耗尽，并更换新的电池；'
                 },
                 {
                     wtT:'清洗电路板触点和导电接触面',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'如果更换了新电池依然不能正常点亮，请检查手电的电路正负极触点、导电切面是否有污物，并用干净的清洁布清理； '
                 },
                 {
                    wtT:'请求维修',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'经过以上的处理之后，如果依然不能正常点亮，请联系您的手电销售商，按正常的保修流程进行保修；'
                 }
             ],
@@ -300,6 +298,8 @@
                 {
                     wtT:'申请成为经销商',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'如果您对经销SUNWAYMAN产品感兴趣，请将您的基本信息以邮件的形式发往邮箱：info@sunwayman.com，SUNWAYMAN公司将在第一时间与您取得联系，商讨后继事宜。另外您也可以推荐您认为有实力的本地经销商给SUNWAYMAN公司，如果您推荐的销售商最终与SUNWAYMAN公司达成合作，SUNWAYMAN公司将免费为您提供丰厚的礼品。<br/>电池更换：为了保证手电的使用性能和使用安全，更换电池时，请同时更换同品牌、同型号、同容量的电池，并对准正负极；手电长期不使用时，请将电池取出，以免发生电池漏液，损坏手电元器件。'
                 }
             ],
@@ -307,6 +307,8 @@
                 {
                     wtT:'获取最新产品信息',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     wtC:'您可经常访问www.sunwayman.com网站的新品频道或者产品中心获取新品信息和各类活动信息；如果您愿意，您也可以用您的常用邮箱发邮件info@sunwayman.com进行相关查询。 也可以关注我们的微信公众号了解最新产品信息；微信公众号二维码在网址底部：社交“微信”图标。'
                 }
             ]
@@ -321,26 +323,36 @@
                 {
                     zsT:'LED',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'光二极管（英文：Light-Emitting Diode，简称LED）是一种半导体元件。初时多用作为指示灯、显示板等；随着白光发光二极管的出现，也被用作照明。LED被广泛运用于汽车工业上，航空行业，电脑电视显示屏，甚至用于家庭照明等领域。它是21世纪的新型光源，具有效率高、寿命长、不易破损等传统光源无法与之比较的优点。'
                 },
                 {
                     zsT:'节省能源',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'LED 能把百分之二十的输入功率转化为光能量，而传统的照明灯泡一般仅可以将百分之二的输入功率转化为光能量。因此，LED 技术超越了其他替代品，提供了良好的节约能源，使其成为一个具有成本效益和环保的现代发光设备。'
                 },
                 {
                     zsT:'使用寿命长',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'传统照明技术的原理是电流通过钨丝，从而使灯丝达到2500摄氏度，光能只是这一过程的副产品。由于固有的低效率设计，照明灯泡很快衰退且在流明达到1000时会烧坏。LED采用的是截然不同的原理，它为固体冷光源，环氧树脂封装，灯体内也没有松动的部分，不存在灯丝发光易烧、热沉积、光衰等缺点，在恰当的电流和电压下，使用寿命可达5万小时。'
                 },
                 {
                     zsT:'坚固耐用',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'LED被完全封装在环氧树脂里面，比灯泡和荧光灯管都坚固。灯体内也没有松动的部分，使得LED不易损坏。'
                 },
                 {
                     zsT:'快速照明',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'一个普通照明灯泡一般需要约100 到300 毫秒来启动照明，而LED 灯只需要几毫微秒，从而在要求高的应用方面具有显著优势。'
                 }
             ],
@@ -353,11 +365,15 @@
                 {
                     zsT:'制作工艺',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'每一个SUNWAYMAN的手电，都由重量轻，硬度高的航太级铝合金制成。有别于大部分的厂商所使用的“管形”材料，SUNWAYMAN的手电筒外壳都是由一整块段的“铝棒”钻孔、切削而制成 。由于铝棒没有管形铝合金材料必然存在的细小裂缝，所以由“铝棒”加工而成的手电筒具有更高的机械强度，更能应对各种恶劣的使用环境（例如汽车碾压，高空摔落等）。 除了使用高强度的铝棒材料外，所有的SUNWAYMAN电筒都采用军规三级阳极氧化处理。军规三级氧化处理能在铝合金表面形成一层硬度仅次于钻石的高强度保护膜，能有效地防止手电筒受到刮伤，磨损或者腐蚀.'
                 },
                 {
                     zsT:'光学',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     zsC:'我们的设计师在光学设计领域已经有多年的经验，我们为每一款SUNWAYMAN手电筒设计了专用的高效率金属反光杯，让手电筒输出柔和完美的光束，并且兼顾远射和近距离照明。同时，为了保护这个精密的光学部件，我们特意为每一只SUNWAYMAN手电装配了镀膜防刮钢化玻璃镜片。手电筒的反光杯.<br/><br/>LED手电筒光面反光杯突出特点之一远射，光面反光杯聚光效果好，可以让手电照得更远，但是光面光杯因为聚光效果好，会出现只有中间的光斑很亮，光斑周围比较暗的现象。<br/><br/>LED手电筒橘面光杯突出特点是均匀，橘面光杯正好相反，照射距离没有平面光杯那么远，但是因为它的高斯反射效果，光斑本身比平面光杯暗，光斑周围比平面光杯要亮。更适合于走夜路，不像平面光杯那样只有中间一个光点亮。'
                 }
             ]

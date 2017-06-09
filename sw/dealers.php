@@ -51,14 +51,14 @@
         <div class="aC hidden-xs hidden-sm" style="width:100%;overflow:hidden;top:20%;text-align:center;position:absolute;color:#fff;">
             <div class="wow fadeInUp" style="color: #23ba51;font-size: 40px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">SUNWAYMAN</div>
             <div class="wow fadeInUp" style="font-size: 36px;line-height: 70px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">携手来自五湖四海的经销商客户<br>共同合作，互利双赢</div>
-            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#更多" style="color:#fff;">了解更多</a></div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#jxscx" style="color:#fff;">了解更多</a></div>
         </div>
         <!--文字动画框手机-->
         <div class="visible-xs-inline" style="width:100%;padding:10px;overflow:hidden;top:15%;text-align:center;position: absolute;color: #fff;">
             <h3 class="wow fadeInUp" style="color: #23ba51;font-size: 18px;font-weight: 600;margin-top: 0;margin-bottom: 5px;" data-wow-duration="1s" data-wow-delay="0s">SUNWAYMAN</h3>
             <h3 class="wow fadeInUp" style="color: #fff;font-size: 20px;font-weight: 600;margin-top: 0;margin-bottom: 35px;line-height: 2;" data-wow-duration="1s" data-wow-delay="0s">携手来自五湖四海的经销商客户<br>共同合作，互利双赢</h3>
             <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                <a href="#更多" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#fff;">了解更多</a>
+                <a href="#jxscx" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#fff;">了解更多</a>
             </p>
         </div>
     </div>
@@ -70,9 +70,9 @@
                     经销商
                 </div>
                 <div class="col-md-6 proMenu">
-                    <div><a href="#查询" name="更多">经销商查询</a></div>
-                    <div><a href="#成为经销商">经销商须知</a></div>
-                    <div style="margin-right: 15px;"><a href="#成为经销商">成为经销商</a></div>
+                    <div><a href="#jxscx" name="更多">经销商查询</a></div>
+                    <div><a href="#cwjxs">经销商须知</a></div>
+                    <div style="margin-right: 15px;"><a href="#cwjxs">成为经销商</a></div>
                     <div class="index-jdp-box" style="flex-grow: 3;">
                         <a href="#">
                             <span class="hidden-xs">经销商服务</span>
@@ -90,7 +90,7 @@
 
 
     <!--经销商查询-->
-    <div class="cpmd" id="查询">
+    <div class="cpmd" id="jxscx">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -144,7 +144,7 @@
     </div>
 
     <!--成为经销商-->
-    <div class="cpmd" id="成为经销商">
+    <div class="cpmd" id="cwjxs">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -167,7 +167,7 @@
                 <div class="col-xs-12 BzBigTitle">经销商须知</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 BzList" v-for="item in bzList">
-                    <div class="BzSmTitle" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;" v-html="item.bzT"></div>
+                    <div class="BzSmTitle iconfont" :class="{BzItemActive:item.sw}" @click="item.sw = !item.sw;"><span v-if="item.sw" v-html="item.icon2"></span><span v-else v-html="item.icon1"></span> {{item.bzT}}</div>
                     <transition
                         name="MC03-transition"
                         enter-active-class="animated fadeInUp"
@@ -180,59 +180,59 @@
             <div class="row dealerchengwei" style="">
                 <div class="col-xs-12 col-sm-10 contactForm">
                     <div class="contactusTitle">成为经销商</div>
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" name="form1">
                         <div class="form-group col-xs-12 col-sm-6 formLable">
                             <label for="inputEmail3" class="col-xs-1 col-sm-2 control-label">姓名 <span>*</span></label>
                             <div class="col-xs-11 col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="">
+                            <input type="name" class="form-control" id="inputEmail3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group  col-xs-12 col-sm-6 formLable">
                             <label for="inputPassword3" class="col-xs-1 col-sm-2 control-label">邮箱 <span>*</span></label>
                             <div class="col-xs-11 col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group col-xs-12 col-sm-6 formLable">
                             <label for="inputEmail3" class="col-xs-1 col-sm-2 control-label">电话 <span>*</span></label>
                             <div class="col-xs-11 col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="">
+                            <input type="tel" class="form-control" id="inputEmail3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group  col-xs-12 col-sm-6 formLable">
                             <label for="inputPassword3" class="col-xs-1 col-sm-2 control-label">其它 <span>*</span></label>
                             <div class="col-xs-11 col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="其他联系方式：(QQ/MSN）">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="其他联系方式：(QQ/MSN）">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">名称 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="您的公司名称？">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="您的公司名称？">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">主页 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="您的公司官网或店铺主页？">
+                            <input type="url" class="form-control" id="inputPassword3" placeholder="您的公司官网或店铺主页？">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">省市 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="您的公司所属省市？">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="您的公司所属省市？">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">地址 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="您公司所在地址？">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="您公司所在地址？">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">认知 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="你是如何知道我们的？">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="你是如何知道我们的？">
                             </div>
                         </div>
                         <div class="form-group">
@@ -255,13 +255,13 @@
                             <label for="inputPassword3" class="col-xs-1 control-label">代营 <span>*</span></label>
                             <div class="col-xs-11 jybrandTitle">贵公司是否有经营其他品牌（不限于手电、充电器，没有则填无）</div>
                             <div class="col-xs-11 col-xs-offset-1 jybrandList">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="1.品牌名称与产品名称？">
+                                <input type="text" class="form-control" id="inputPassword3" placeholder="1.品牌名称与产品名称？">
                             </div>
                             <div class="col-xs-11 col-xs-offset-1 jybrandList">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="2.品牌名称与产品名称">
+                                <input type="text" class="form-control" id="inputPassword3" placeholder="2.品牌名称与产品名称">
                             </div>
                             <div class="col-xs-11 col-xs-offset-1 jybrandList">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="3.品牌名称与产品名称">
+                                <input type="text" class="form-control" id="inputPassword3" placeholder="3.品牌名称与产品名称">
                             </div>
                         </div>
                         <div class="form-group">
@@ -387,11 +387,15 @@
                 {
                     bzT:'合作细则',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'经销商应严格执行《经销商客户服务条款》以保障产品用户的合理权益。<br>1、经销商需按sunwayman公司订的标准零售价售卖商品，禁止网络低价销售。<br>2、禁止区域内窜货。<br>3、在所属区域内策划一年不低于三次有利于品牌销售的推广活动。<br>4、保证按照预定的市场推广计划全力开拓本地市场，禁止各经销商之间恶性竞争和打价格战<br>5、积极配合sunwayman公司的各种品牌营销活动。<br>6、多和消费者互动，更多的反馈市场各种产品信息给sunwayman官方。<br>7、保证以诚实、忠诚的合作态度和SUNWAYMAN公司进行合作。'
                 },
                 {
                     bzT:'合作条款',
                     sw:false,
+                    icon1:'&#xe618',
+                    icon2:'&#xe619;',
                     bzC:'《经销商客户服务条款》是为了保证SUNWAYMAN公司、经销商、用户三方的共同利益而制订，详见请下载查阅。'
                 }
             ]

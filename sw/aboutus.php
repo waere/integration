@@ -55,10 +55,10 @@
                     关于我们
                 </div>
                 <div class="col-md-6 proMenu">
-                    <div><a href="#品牌简介">品牌简介</a></div>
-                    <div><a href="#发展历程">发展历程</a></div>
-                    <div><a href="#联系我们">联系我们</a></div>
-                    <div style="margin-right: 15px;"><a href="#留言">在线留言</a></div>
+                    <div><a href="#ppjieshao">品牌简介</a></div>
+                    <div><a href="#fazhan">发展历程</a></div>
+                    <div><a href="#lianxi">联系我们</a></div>
+                    <div style="margin-right: 15px;"><a href="#zxliuyan">在线留言</a></div>
                     <div class="index-jdp-box" style="flex-grow: 3;">
                         <a href="#">
                             <span class="hidden-xs">了解我们</span>
@@ -76,7 +76,7 @@
 
 
     <!--品牌简介-->
-    <div class="cpmd" id="品牌简介">
+    <div class="cpmd" id="ppjieshao">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -112,7 +112,7 @@
     </div>
 
     <!--发展历程-->
-    <div class="cpmd" id="发展历程">
+    <div class="cpmd" id="fazhan">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -133,45 +133,87 @@
         <div class="container">
             <div class="row usegrid">
                 <div class="col-xs-12 about-history">
-                   
-                   <div class="historyListB">
-                        <div class="col-sm-1 col-xs-12 historyYear">2016</div>
-                        <div class="col-sm-11 col-xs-12 historyContent">
-                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
-                        </div>
-                   </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2015</div>
                         <div class="col-xs-12 col-sm-11 historyContent">
-                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
+                            公司业界首款创新型L型电筒C22C上市，开创了L灯和直灯统一的先河，并长期占据公司型号销量榜榜首，也是得到消费者的一致好评。
                         </div>
                    </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2014</div>
                         <div class="col-xs-12 col-sm-11 historyContent">
-                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
+                            5月，Sunwayman别出心裁的产品 R20A和S10R一经推出，立即获得消费者的好评如潮，7月，其中S10R更是获得户外发烧友论坛评选的“最佳户外装备奖”。
                         </div>
                    </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2013</div>
                         <div class="col-xs-12 col-sm-11 historyContent">
-                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
+                            Sunwayman T40CS推出，成为国内大光杯2节18650聚光远射电筒的标杆，并屡次获得各类国际论坛的好评。
                         </div>
                    </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2012</div>
                         <div class="col-xs-12 col-sm-11 historyContent">
-                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
+                            10月上市业界首款18650磁环电筒V20C，至此sunwayman产品线趋于完善。
                         </div>
                    </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2011</div>
                         <div class="col-xs-12 col-sm-11 historyContent">
+                            Sunwayman C15C荣获2011日本户外零售商最佳展品奖，成为2011年手电行业的一颗最亮的璀璨明星！
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2010</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            sunwayman在业界率先推出M30R、M60R、M10A、C10A、V10R等一系列磁环调光产品，开创了磁环调光的先河。
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2009</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            R10A更被俄罗斯专业评测论坛评为20美金以内10大顶级旅游小装备之一。
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2008</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            C21C稳坐sunwayman手电单个型号销量头把交椅，荣获“Best of China flashlight”奖项，并且在国际手电网站的手电评选中长期稳居前几名。
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2007</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            sunwayman推出的新品F10R/F20C再次被www.flashlightreviews.com评为年度最佳照明产品之一。
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2006</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            美国手电评测机构www.flashlightreviews.com做出的“TOP 20 Most Popular Reviews, Jan. 2006 - Dec. 2006”评选中，sunwayman产品V20A、M20A等产品荣获嘉奖！
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2005</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            sunwayman品牌首款CR123A手电M10R的诞生即震惊业界，开拓了一个高品质、高亮度的单节CR123A手电筒的新纪元,并被众多用户、媒体、同行追捧。
+                        </div>
+                   </div>
+
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2004</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
                             深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
                         </div>
                    </div>
@@ -182,7 +224,7 @@
     </div>
 
     <!--联系我们-->
-    <div class="cpmd" id="联系我们">
+    <div class="cpmd" id="lianxi">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -205,7 +247,7 @@
                 <div class="col-xs-12" style="padding:0;">                   
                     <iframe class="center-block" src="map.html" width="100%" height="410px" frameborder="0" scrolling="no"></iframe>
                 </div>
-                <div class="col-xs-12 col-sm-6" id="留言">
+                <div class="col-xs-12 col-sm-6" id="zxliuyan">
                     <div class="contact-comp">
                         深圳市鑫辉光电有限公司 <span></span>
                     </div>
@@ -250,25 +292,25 @@
                         <div class="form-group">
                             <label for="inputEmail3" class="col-xs-1 control-label">姓名 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">电话 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="tel" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">邮箱 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="email" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-xs-1 control-label">主题 <span>*</span></label>
                             <div class="col-xs-11">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">

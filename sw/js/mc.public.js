@@ -7,13 +7,13 @@ var webNavObj = {
         {mid:'m1',surl:'products.php',mtext:'产品中心',canSee:false,canPCShow:true},
         {mid:'m2',surl:'C22C.php',mtext:'新品推荐',canSee:false,canPCShow:true},
         {mid:'m3',surl:'servers.php',mtext:'服务与支持',canSee:false,canPCShow:true,subList:[
-            {subTitle:'服务政策',subUrl:'servers.php'},
-            {subTitle:'产品验证',subUrl:'servers.php'},
-            {subTitle:'申请评测',subUrl:'servers.php'}
+            {subTitle:'服务政策',subUrl:'servers.php#shzhengce'},
+            {subTitle:'产品验证',subUrl:'servers.php#yanzheng'},
+            {subTitle:'申请评测',subUrl:'servers.php#shenqing'}
         ]},
         {mid:'m4',surl:'dealers.php',mtext:'经销商',canSee:false,canPCShow:true,subList:[
-            {subTitle:'经销商查询',subUrl:'dealers.php'},
-            {subTitle:'成为经销商',subUrl:'dealers.php'}
+            {subTitle:'经销商查询',subUrl:'dealers.php#jxscx'},
+            {subTitle:'成为经销商',subUrl:'dealers.php#cwjxs'}
         ]},
         {mid:'m5',surl:'aboutus.php',mtext:'关于',canSee:false,canPCShow:true}
     ]
@@ -260,19 +260,19 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'品牌介绍',
-                    ddUrl:'aboutus.php'
+                    ddUrl:'aboutus.php#ppjieshao'
                 },
                 {
                     ddName:'发展历程',
-                    ddUrl:'aboutus.php'
+                    ddUrl:'aboutus.php#fazhan'
                 },
                 {
                     ddName:'联系我们',
-                    ddUrl:'aboutus.php'
+                    ddUrl:'aboutus.php#lianxi'
                 },
                 {
                     ddName:'在线留言',
-                    ddUrl:'aboutus.php'
+                    ddUrl:'aboutus.php#zxliuyan'
                 }
             ]
         },
@@ -282,11 +282,11 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'经销商查询',
-                    ddUrl:'dealers.php'
+                    ddUrl:'dealers.php#jxscx'
                 },
                 {
                     ddName:'成为经销商',
-                    ddUrl:'dealers.php'
+                    ddUrl:'dealers.php#cwjxs'
                 }
             ]
         },
@@ -300,27 +300,27 @@ var bottomNavObj = {
                 },
                 {
                     ddName:'便携户外',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 },
                 {
                     ddName:'纵度搜索',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 },
                 {
                     ddName:'EDC探密',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 },
                 {
                     ddName:'限量收藏',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 },
                 {
                     ddName:'迷你精灵',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 },
                 {
                     ddName:'配套精品',
-                    ddUrl:'dealers.php'
+                    ddUrl:'products.php'
                 }
             ]
         },
@@ -330,33 +330,33 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'售后服务政策',
-                    ddUrl:'servers.php'
+                    ddUrl:'servers.php#shzhengce'
                 },
                 {
                     ddName:'产品验证',
-                    ddUrl:'servers.php'
+                    ddUrl:'servers.php#yanzheng'
                 },
                 {
                     ddName:'申请评测',
-                    ddUrl:'servers.php'
+                    ddUrl:'servers.php#shenqing'
                 }
             ]
         },
         {
             dtTitle:'下载中心',
-            dtUrl:'#',
+            dtUrl:'download.php',
             ddLits:[
                 {
                     ddName:'产品手册',
-                    ddUrl:'#'
+                    ddUrl:'download.php'
                 },
                 {
                     ddName:'产品说明书',
-                    ddUrl:'#'
+                    ddUrl:'download.php'
                 },
                 {
-                    ddName:'其他',
-                    ddUrl:'#'
+                    ddName:'产品海报',
+                    ddUrl:'download.php#cphaibao'
                 }
             ]
         },
@@ -370,7 +370,7 @@ var bottomNavObj = {
                 },
                 {
                     ddName:'相关知识',
-                    ddUrl:'education.php'
+                    ddUrl:'education.php#xgzs'
                 }
             ]
         }
@@ -531,4 +531,22 @@ var mbProductsSubList = new Vue({
 var mbNPList = new Vue({
     el:"#mcNpcenter",
     data:newProductsNavObj
+});
+
+// 锚点平滑滚动
+$(function(){
+    $('a[href*="#"]').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var $target = $(this.hash);
+          $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+          if ($target.length) {
+            var targetOffset = $target.offset().top;
+            $('html,body').animate({
+              scrollTop: targetOffset
+            },
+            400);
+            return false;
+          }
+        }
+    });
 });

@@ -913,6 +913,7 @@ a:visited{
     color: #333;
     font-size: 12px
 }
+.public-bottom-link a:hover{color:#23b94f;}
 
 .mobileMenuDiv{
     width: 100%;
@@ -1361,6 +1362,8 @@ a:visited{
 .cpmd{
     width: 100%;    
     float: left;
+    padding-top: 60px;
+    margin-top: -60px;
 }
 .cpmd2{
     width: 100%;
@@ -1399,8 +1402,9 @@ a:visited{
     content: "\e614";
 }
 .cpmdList ul li span{
-    font-size: 16px;
+    font-size: 17px;
     color:#009a44;
+    vertical-align: middle;
 }
 .usegrid{
     width: 100%;
@@ -1623,7 +1627,9 @@ a:visited{
     font-size: 16px;
     color: #009a44;
     background-color: transparent;
+    outline:none;
 }
+.sendbtn:focus { outline: none; }
 .sendbtn:hover{
     background: #009a44;
     color:#fff;
@@ -2145,8 +2151,121 @@ a:visited{
     -moz-transform-origin:center top;
     -o-transform-origin:center top;
 }
-
-
+/* download*/
+#xzzx hr{border-top: 1px solid #ccc;}
+.downbox{
+    overflow: hidden;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.downbox .dwtit{
+    font-size: 24px;
+    color:#23b94f;
+    margin: 25px 0;
+}
+.downbox .dwscs{
+    font-size: 14px;
+}
+.downbox .dwxzbox>div{
+    padding: 2px;
+    margin:50px 80px 50px 0;
+    background: #969696;
+}
+.downbox .dwxzbox>div:hover{background: #23b94f;}
+.downbox .dwxzbox .dwxzL{
+    padding: 5px 10px;
+    color:#fff;
+}
+.downbox .dwxzbox .dwxzL h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+.downbox .dwxzbox .dwxzL h4{font-size: 24px;}
+.downbox .dwxzbox .dwxzL span{font-size: 14px;}
+.downbox .dwxzbox .dwxzR{
+    position: relative;
+    text-align: right;
+}
+.downbox .dwxzbox .dwxzR a{
+    display: block;
+    position: absolute;
+    top:5px;
+    right:-7px;
+    font-size: 100px;
+    line-height: 1;
+    color:#e6e6e6;
+}
+.downbox .dwxzbox .dwxzR a:hover{color:#e6e6e6;}
+.dwsmbox{padding-right: 0;}
+.dwsmslist{
+    padding: 0;
+    padding-right: 15px;
+}
+.dwsmslist h3{
+    font-size: 20px;
+}
+.dwsmslist .smsxz{
+    background: #969696;
+    padding: 2px;
+    margin: 10px 0;
+}
+.dwsmslist .smsxz:hover{background: #23b94f;}
+.dwsmslist .smsxz .smsxzL{
+    font-size: 20px;
+    color:#fff;
+    padding: 12px 15px;
+}
+.dwsmslist .smsxz .smsxzR{
+    position: relative;
+    text-align: right;
+    padding: 0;
+}
+.dwsmslist .smsxz .smsxzR a{
+    display: block;
+    position: absolute;
+    top:3px;
+    right: -4px;
+    font-size: 50px;
+    line-height: 1;
+    color:#e6e6e6;
+}
+.dwsmslist .smsxz .smsxzR a:hover{color:#e6e6e6;}
+.dwhbbox{padding-right: 0;}
+.dwhbbox>div{
+    padding: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.hbxz{
+    background: #969696;
+    padding: 2px;
+}
+.hbxz:hover{background: #23b94f;}
+.hbxz .hbxzL{
+    font-size: 20px;
+    color:#fff;
+    padding: 12px 15px;
+}
+.hbxz .hbxzR{
+    position: relative;
+    text-align: right;
+    padding: 0;
+}
+.hbxz .hbxzR a{
+    display: block;
+    position: absolute;
+    top:3px;
+    right: -4px;
+    font-size: 50px;
+    line-height: 1;
+    color:#e6e6e6;
+}
+.hbxz .hbxzR a:hover{color:#e6e6e6;}
+.hbxz .hbimg{padding: 0;}
+.hbxz .hbimg img{
+    width: 100%;
+}
 
 @media screen and (max-width:768px){
     .about-history{
@@ -2621,5 +2740,12 @@ a:visited{
     .jyZhiYingList .input-group-addon{
         font-size: 12px;
     }
+    /* download*/
+    .downbox .dwxzbox{
+        padding: 15px 30px;
+    }
+    .downbox .dwxzbox>div{margin:5px 0;}
+    .downbox .dwxzbox .dwxzR{padding: 0;}
+    .dwsmbox .nopd{padding: 0;}
 }
 
