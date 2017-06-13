@@ -124,7 +124,7 @@
             </div>
             <!--分类产品列表-->
             <div class="proBox" v-for="p in pitem.plist">
-                <div class="lipl_conbox">
+                <div class="lipl_conbox" :class="{mtop:p.icheck}">
                     <div class="lipl_top">							
                         <div class="conbox_brief">
                             <h5>{{p.ptitle}}</h5>
@@ -143,8 +143,8 @@
                             <b></b>
                             <p v-html="p.pbright"></p>
                             <p v-html="p.prange"></p>
-                            <p v-html="p.pweight"></p>
-                            <p class="hidden-xs" v-html="p.pusetime"></p>
+                            <p v-html="p.pusetime"></p>
+                            <p class="hidden-xs" v-html="p.pweight"></p>
                             <p class="hidden-xs" v-html="p.pled"></p>
                             <p class="hidden-xs" v-html="p.pbretty"></p>
                         </div>
@@ -152,7 +152,7 @@
                             <ul class="row">
                                 <li class="col-md-4 col-xs-6"><a :href="p.pmoreurl" target="view_window">了解更多</a></li>
                                 <li class="col-md-4 col-xs-6"><a :href="p.pbuyurl" target="view_window">立即购买</a></li>
-                                <li class="contrast_btn col-md-4 hidden-xs"><a href="javascript:void(0);"><i></i>加入对比</a></li>
+                                <li class="contrast_btn col-md-4 hidden-xs"><a href="javascript:void(0);" @click="p.icheck=!p.icheck" ><i :class="{icheck:p.icheck}"></i>加入对比</a></li>
                             </ul>
                         </div>
                     </div>

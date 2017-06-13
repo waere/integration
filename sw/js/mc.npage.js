@@ -43,7 +43,7 @@ $("a.xiangqing,a.maidian,a.shiyong,a.canshu,a.peijian").click(function() {
     $("html, body").animate({  
         scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
     }, {  
-        duration: 1000,  
+        duration: 500,  
         easing: "swing"  
     });  
     return false;  

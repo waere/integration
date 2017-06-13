@@ -784,7 +784,11 @@ a:visited{
     width: 80%;
     border: none;
     outline: none;
+    color:#333;
 }
+.public-bottom-searchBox input[type="text"]::-webkit-input-placeholder{color:#333;}
+.public-bottom-searchBox input[type="text"]::-moz-placeholder{color:#333;}
+.public-bottom-searchBox input[type="text"]:-ms-input-placeholder{color:#333;}
 .public-bottom-searchBox input[type="submit"]{
     height: 38px;
     top: 1px;
@@ -828,9 +832,6 @@ a:visited{
 }
 .listBNav dl dd{
     line-height: 25px;
-}
-.listBNavIco{
-    
 }
 .listBNavIco a{
     color: #666666;
@@ -1154,28 +1155,21 @@ a:visited{
 
 .sixFront{
     background: #141414;
+    width: 100%;
 }
 .sixFront a{
     display: block;
-    position: relative;
-    width: 308px;
-    height: 308px;
+    width: 100%;
+    padding: 23% 15%;
 }
-.sixFront a img{
-    position: absolute;
-    top:75px;
-    left:55px;
-    width: 200px;
-}
+.sixFront a img{width: 100%;}
 
 .sixBack{
     position: absolute;
     top: 0;
 }
 
-.sixBack a{
-    display: block;
-}
+.sixBack a{display: block;}
 
 .products-showBox{
     width: 100%;
@@ -1183,13 +1177,8 @@ a:visited{
     float: left;
     position: relative;
 }
-.pro-show-imgBox{
-    width: 100%;
-}
-.pro-show-imgBox img{
-    width: 100%;
-}
-
+.pro-show-imgBox{width: 100%;}
+.pro-show-imgBox img{width: 100%;}
 
 .pt4{
     padding-top: 40px;
@@ -1289,11 +1278,11 @@ a:visited{
     margin: 0;
     padding: 0;
 }
-.index-jdp-box a{
+.nav>.index-jdp-box>a{
     color: #fff;
     display: block;
 }
-.index-jdp-box a:hover{
+.nav>.index-jdp-box>a:hover{
     background-color: #30d862;
     color: #fff;
     display: block;
@@ -1436,9 +1425,6 @@ a:visited{
     width: 100%;
     margin: 0;
     padding: 0;
-}
-.detailList{
-    
 }
 .detailList i{
     color: #969696;
@@ -1760,9 +1746,6 @@ a:visited{
     font-size: 18px;
     color: #fff;
 }
-.YzResult{
-
-}
 .YzResult div{
     line-height: 50px;
     border-bottom: 1px solid #b4b4b4;
@@ -1871,9 +1854,6 @@ a:visited{
     margin-top: 50px;
     white-space:nowrap; 
     overflow: hidden;
-}
-.sisearchItem3{
-    
 }
 .sisearchItem3 .form-control{
     border: none;
@@ -2012,6 +1992,7 @@ a:visited{
   left: 0px;
   transition: all .3s;
 }
+.proBox .mtop{top:-308px;}
 .proBox .lipl_conbox .lipl_top {
   position: relative;
   width: 100%;
@@ -2143,12 +2124,13 @@ a:visited{
   height: 15px;
   background: url(../images/icon.png) no-repeat -335px -153px;
 }
+.proBox .lipl_conbox .lipl_bottom .lipl_shopbox ul .contrast_btn .icheck{
+    background: url(../images/icon.png) no-repeat -356px -153px;
+}
 .proBox .lipl_conbox .lipl_bottom .lipl_shopbox ul .con_checked > i {
   background: url(../images/icon.png) no-repeat -356px -153px;
 }
-.proBox .lipl_conbox:hover {
-  top: -308px;
-}
+.proBox .lipl_conbox:hover {top: -308px;}
 
 
 .actonTime{
@@ -2189,9 +2171,6 @@ a:visited{
     list-style: none;
     margin: 0;
     padding: 0;
-}
-.zhishiqi ul li{
-    
 }
 .zhishiqi ul li a{
     width: 16px;
@@ -2350,9 +2329,6 @@ a:visited{
     }
     .serviceFicoList>div:nth-child(3){
         border-right: 1px solid #f7f7f7;
-    }
-    .serviceFicoList>div:nth-child(4){
-        
     }
     .regChePingTitle{
         line-height: 50px;

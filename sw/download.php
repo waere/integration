@@ -253,7 +253,7 @@
                                 {
                                     cpName:'G25C',
                                     cpUrl:'file/G25C-Instructions.doc',
-                                    fileName:'25C-Instructions.doc'
+                                    fileName:'G25C-Instructions.doc'
                                 },
                                 {
                                     cpName:'T20CC',

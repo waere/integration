@@ -389,8 +389,8 @@
             $("html, body").animate({  
                 scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
             }, {  
-                duration: 1000,  
-                easing: "swing"  
+                duration: 300,  
+                easing: "linear"  
             });  
             return false;  
         }); 

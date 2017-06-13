@@ -406,7 +406,7 @@
         });
         // 滚动时产品菜单项置顶
         $(document).scroll(function(){
-            var oft = $(".products-showBox").height();
+            var oft = $(".products-showBox").height()+$('.serviceFico').height();
             var sct = $(document).scrollTop();
             var cz = sct-oft;            
             if(cz >= 60)
@@ -432,9 +432,9 @@
             $("html, body").animate({  
                 scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
             }, {  
-                duration: 1000,  
-                easing: "swing"  
-            });  
+                duration: 300,  
+                easing: "linear"  
+            }).stop();  
             return false;  
         }); 
         // 左右对齐
