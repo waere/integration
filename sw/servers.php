@@ -34,7 +34,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#prMenuBox" style="position: relative;">
     <!--顶部-->
     <?php
         require("inc/header.php");
@@ -126,24 +126,24 @@
     <div class="pro-menu-box" id="prMenuBox">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 proTitle hidden-xs hidden-sm">                    
+                <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
                     服务与支持
                 </div>
-                <div class="col-md-5 proMenu">
-                    <div><a href="#shzhengce">服务政策</a></div>
-                    <div><a href="#yanzheng">产品验证</a></div>
-                    <div><a href="#shenqing">申请评测</a></div>
-                    <!-- <div style="margin-right: 15px;"><a href="#xzsq">现在申请</a></div> -->
-                    <div class="index-jdp-box" style="flex-grow: 2;">
+                <div class="col-md-6 proMenu nav">
+                    <li><a class="fwzc" href="#fwzc">服务政策</a></li>
+                    <li><a class="cpyz" href="#cpyz">产品验证</a></li>
+                    <li><a class="sqcp" href="#sqcp">申请评测</a></li>
+                    <!--<li style="margin-right: 15px;"><a href="#">产品服务</a></li>-->
+                    <li class="index-jdp-box" style="flex-grow: 3;">
                         <a href="#">
                             <span class="hidden-xs">产品服务</span>
                              <span class="iconfont">&#xe60f;</span>
                         </a>  
-                    </div>
-                    <div class="index-lang-box hidden-xs">
+                    </li>
+                    <li class="index-lang-box hidden-xs">
                         <a href="javascript:pageScroll();" class="">回到顶部</a>
                         <!-- <a href="#" class="hidden-sm hidden-md hidden-lg">TOP</a> -->
-                    </div>
+                    </li>
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
 
 
     <!--售后服务政策-->
-    <div class="cpmd"  id="shzhengce">
+    <div class="cpmd"  id="fwzc">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -194,7 +194,7 @@
     </div>
 
     <!--产品验证-->
-    <div class="cpmd" id="yanzheng">
+    <div class="cpmd" id="cpyz">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -248,7 +248,7 @@
     </div>
 
     <!--申请测评-->
-    <div class="cpmd" id="shenqing">
+    <div class="cpmd" id="sqcp">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -422,6 +422,21 @@
         function pageScroll() { 
             $('body').animate({scrollTop: 0}, 500); 
         }
+        // 滚动监听
+        $('body').scrollspy({
+            offset:150,
+            target: '#prMenuBox'
+        })
+        // 平滑滚动到指定锚点
+        $("a.fwzc,a.cpyz,a.sqcp").click(function() {  
+            $("html, body").animate({  
+                scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
+            }, {  
+                duration: 1000,  
+                easing: "swing"  
+            });  
+            return false;  
+        }); 
         // 左右对齐
         function alignLorR() {
             //动画框统一左边框

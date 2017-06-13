@@ -33,6 +33,21 @@ $(document).scroll(function(){
 function pageScroll() { 
     $('body').animate({scrollTop: 0}, 500); 
 }
+// 滚动监听
+$('body').scrollspy({
+    offset:150,
+    target: '#prMenuBox'
+})
+// 平滑滚动到指定锚点
+$("a.xiangqing,a.maidian,a.shiyong,a.canshu,a.peijian").click(function() {  
+    $("html, body").animate({  
+        scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
+    }, {  
+        duration: 1000,  
+        easing: "swing"  
+    });  
+    return false;  
+}); 
 // 窗口小于992px时把底部6个分类设为显示2个并滚动
 function changeSixList()
 {

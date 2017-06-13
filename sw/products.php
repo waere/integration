@@ -65,13 +65,13 @@
         <div class="container">
             <div class="row" style="padding-top:10px;">
 
-                <div class="col-xs-12 col-sm-4" id="sxSearchBox" v-show="!searchL">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-4" id="sxSearchBox" v-show="!searchL">
                     <div class="col-xs-9 col-sm-12">
-                        <div class="sisearchItem">
+                        <!-- <div class="sisearchItem">
                             <span>产品筛选</span>
                             <span>Product screening</span>
                             <i class="iconfont">&#xe616;</i>
-                        </div>
+                        </div> -->
                         <div class="sisearchItem2">
                             <span>产品搜索</span>
                             <span>Product search</span>
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-3 visible-xs-inline" style="padding-top:40px;">
+                    <div class="col-xs-3 visible-xs-inline" style="padding-top:20px;">
                         <a href="javascript:showSXList();"><img src="images/ssRight.png" class="img-responsive"></a>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                         <dl v-for="(item,k) in scList">
                             <dt>{{item.dt}}</dt>
                             <dd v-for="sub in item.scSubList">
-                                <input type="radio" :name="'searchGroup'+k" :id="'sx-'+sub.skey">
+                                <input type="checkbox" :name="'searchGroup'+k" :id="'sx-'+sub.skey">
                                 <label :for="'sx-'+sub.skey">{{sub.sval}}</label>
                             </dd>
                         </dl>
@@ -128,8 +128,8 @@
                     <div class="lipl_top">							
                         <div class="conbox_brief">
                             <h5>{{p.ptitle}}</h5>
-                            <b></b>
-                            <div v-html="p.pdec"></div>
+                            <b class="hidden-xs"></b>
+                            <div class="hidden-xs" v-html="p.pdec"></div>
                         </div>
                         <div class="conbox_img"><img :src="p.pimg" :alt="p.ptitle"></div>
                         <div class="conbox_cuebox">
@@ -144,15 +144,15 @@
                             <p v-html="p.pbright"></p>
                             <p v-html="p.prange"></p>
                             <p v-html="p.pweight"></p>
-                            <p v-html="p.pusetime"></p>
-                            <p v-html="p.pled"></p>
-                            <p v-html="p.pbretty"></p>
+                            <p class="hidden-xs" v-html="p.pusetime"></p>
+                            <p class="hidden-xs" v-html="p.pled"></p>
+                            <p class="hidden-xs" v-html="p.pbretty"></p>
                         </div>
                         <div class="lipl_shopbox">
-                            <ul>
-                                <li><a :href="p.pmoreurl" target="view_window">了解更多</a></li>
-                                <li><a :href="p.pbuyurl" target="view_window">立即购买</a></li>
-                                <li class="contrast_btn"><i></i>加入对比</li>
+                            <ul class="row">
+                                <li class="col-md-4 col-xs-6"><a :href="p.pmoreurl" target="view_window">了解更多</a></li>
+                                <li class="col-md-4 col-xs-6"><a :href="p.pbuyurl" target="view_window">立即购买</a></li>
+                                <li class="contrast_btn col-md-4 hidden-xs"><a href="javascript:void(0);"><i></i>加入对比</a></li>
                             </ul>
                         </div>
                     </div>

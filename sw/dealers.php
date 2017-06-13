@@ -34,7 +34,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#prMenuBox" style="position: relative;">
     <!--顶部-->
     <?php
         require("inc/header.php");
@@ -51,7 +51,7 @@
         <div class="aC hidden-xs hidden-sm" style="width:100%;overflow:hidden;top:20%;text-align:center;position:absolute;color:#fff;">
             <div class="wow fadeInUp" style="color: #23ba51;font-size: 40px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">SUNWAYMAN</div>
             <div class="wow fadeInUp" style="font-size: 36px;line-height: 70px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">携手来自五湖四海的经销商客户<br>共同合作，互利双赢</div>
-            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#jxscx" style="color:#fff;">了解更多</a></div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#更多" style="color:#fff;">了解更多</a></div>
         </div>
         <!--文字动画框手机-->
         <div class="visible-xs-inline" style="width:100%;padding:10px;overflow:hidden;top:15%;text-align:center;position: absolute;color: #fff;">
@@ -69,20 +69,20 @@
                 <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
                     经销商
                 </div>
-                <div class="col-md-6 proMenu">
-                    <div><a href="#jxscx" name="更多">经销商查询</a></div>
-                    <div><a href="#cwjxs">经销商须知</a></div>
-                    <div style="margin-right: 15px;"><a href="#cwjxs">成为经销商</a></div>
-                    <div class="index-jdp-box" style="flex-grow: 3;">
+                <div class="col-md-6 proMenu nav">
+                    <li><a class="jxscx" href="#jxscx" name="更多">经销商查询</a></li>
+                    <li><a class="jxsxz" href="#jxsxz">经销商须知</a></li>
+                    <li style="margin-right: 15px;"><a href="#jxscw" class="jxscw">成为经销商</a></li>
+                    <li class="index-jdp-box" style="flex-grow: 3;">
                         <a href="#">
                             <span class="hidden-xs">经销商服务</span>
                              <span class="iconfont">&#xe60f;</span>
                         </a>  
-                    </div>
-                    <div class="index-lang-box hidden-xs">
+                    </li>
+                    <li class="index-lang-box hidden-xs">
                         <a href="javascript:pageScroll();" class="hidden-xs">回到顶部</a>
                         <!-- <a href="#" class="hidden-sm hidden-md hidden-lg">TOP</a> -->
-                    </div>
+                    </li>
                 </div>
             </div>
         </div>
@@ -177,10 +177,10 @@
                     </transition>
                 </div>
             </div>
-            <div class="row dealerchengwei" style="">
+            <div class="row dealerchengwei" id="jxscw">
                 <div class="col-xs-12 col-sm-10 contactForm">
                     <div class="contactusTitle">成为经销商</div>
-                    <form class="form-horizontal" name="form1">
+                    <form class="form-horizontal">
                         <div class="form-group col-xs-12 col-sm-6 formLable">
                             <label for="inputEmail3" class="col-xs-1 col-sm-2 control-label">姓名 <span>*</span></label>
                             <div class="col-xs-11 col-sm-10">
@@ -381,6 +381,21 @@
         function pageScroll() { 
             $('body').animate({scrollTop: 0}, 500); 
         }
+        // 滚动监听
+        $('body').scrollspy({
+            offset:150,
+            target: '#prMenuBox'
+        })
+        // 平滑滚动到指定锚点
+        $("a.jxscx,a.jxsxz,a.jxscw").click(function() {  
+            $("html, body").animate({  
+                scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
+            }, {  
+                duration: 1000,  
+                easing: "swing"  
+            });  
+            return false;  
+        }); 
         // 成为经销商
         var jxsData = {
             bzList:[

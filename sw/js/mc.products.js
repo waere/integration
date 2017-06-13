@@ -56,6 +56,15 @@ function changeSList() {
         $(".productsBox").each(function(){
             $(this).css({"flex-wrap":"nowrap","overflow-x":"scroll"});
         });
+        $(".proBox").each(function(){
+            $(this).css({"min-width":"48%"});
+            $(".flipper").css({"height":$(this).width()+"px"});
+            $(".proBox .flipper .front img").css({"width":"80%"});
+        });
+        $(".scChangeSW2").css({
+            "width":"1000px",
+            "justify-content":"space-around"
+        });
     }
     else
     {
@@ -64,6 +73,14 @@ function changeSList() {
         screeningList.$data.closeScroll = true;
         $(".productsBox").each(function(){
             $(this).css({"flex-wrap":"wrap","overflow-x":"hidden"});
+        });
+        $(".proBox").each(function(){
+            $(this).css({"min-width":"305px"});
+            $(".flipper").css({"min-height":"305px"});
+        });
+        $(".scChangeSW2").css({
+            "width":"100%",
+            "justify-content":"space-between"
         });
     }    
 }

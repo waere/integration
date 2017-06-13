@@ -62,28 +62,28 @@
                 <div class="col-md-6 proTitle hidden-xs hidden-sm">
                     C22CC
                 </div>
-                <div class="col-md-6 proMenu">
-                    <div><a href="#详情">详情</a></div>
-                    <div><a href="#卖点">卖点</a></div>
-                    <div><a href="#使用">使用</a></div>
-                    <div><a href="#参数">参数</a></div>
-                    <div><a href="#配件">配件</a></div>
-                    <div class="index-jdp-box">
+                <div class="col-md-6 proMenu nav">
+                    <li><a class="xiangqing" href="#xiangqing">详情</a></li>
+                    <li><a class="maidian" href="#maidian">卖点</a></li>
+                    <li><a class="shiyong" href="#shiyong">使用</a></li>
+                    <li><a class="canshu" href="#canshu">参数</a></li>
+                    <li><a class="peijian" href="#peijian">配件</a></li>
+                    <li class="index-jdp-box">
                         <a href="http://item.jd.com/12943152388.html" target="view_window">
                             <span class="hidden-xs">购买</span>
                             <img src="images/buycarIco.png" />
                         </a>  
-                    </div>
-                    <div class="index-lang-box">
+                    </li>
+                    <li class="index-lang-box">
                         <a href="javascript:pageScroll();" class="hidden-xs">回到顶部</a>
                         <a href="javascript:pageScroll();" class="hidden-sm hidden-md hidden-lg">TOP</a>
-                    </div>
+                    </li>
                 </div>
             </div>
         </div>
     </div>
     <!--产品详情-->
-    <div id="详情" class="p-detailBox">
+    <div id="xiangqing" class="p-detailBox">
         <!--图片部分-->
         <div class="p-detailImgBox">
             <img data-original="images/C22CC/C22CC-002.jpg" class="img-responsive hidden-xs">
@@ -111,8 +111,7 @@
             </p>
             <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
             </div>
-        </div>
-        
+        </div>        
     </div>
     <!--产品详情2-->
     <div class="p-detailBox">
@@ -148,8 +147,7 @@
             </p>
             <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
             </div>
-        </div>
-        
+        </div>        
     </div>
     <!--产品详情3-->
     <div class="p-detailBox">
@@ -185,10 +183,8 @@
                 <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe6e9;</span>
                 <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe704;</span>
             </div>
-        </div>
-        
+        </div>        
     </div>
-
     <!--产品详情4-->
     <div class="p-detailBox">
         <!--图片部分-->
@@ -223,8 +219,7 @@
                 <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe708;</span>
                 <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe70b;</span>
             </div>
-        </div>
-        
+        </div>        
     </div>
     <!--产品详情5-->
     <div class="p-detailBox">
@@ -258,12 +253,11 @@
             <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
                 <span class="iconfont" style="font-size:50px;color:#009a44;">&#xe716;</span>
             </div>
-        </div>
-        
+        </div>        
     </div>
     
     <!--产品卖点部分-->
-    <div id="卖点" class="cpmd">
+    <div id="maidian" class="cpmd">
         <div class="container">
             <!--卖点标题-->
             <div class="row hidden-xs" style="height:50px;"></div>
@@ -388,8 +382,7 @@
             </p>
             <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
             </div>
-        </div>
-        
+        </div>        
     </div>
     <!--产品卖点图片2-->
     <div class="p-detailBox">
@@ -423,8 +416,7 @@
             </p>
             <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
             </div>
-        </div>
-        
+        </div>        
     </div>
     <!--产品卖点图片3-->
     <div class="p-detailBox">
@@ -462,7 +454,7 @@
     </div>    
 
     <!--产品使用说明-->
-    <div id="使用" class="cpmd">
+    <div id="shiyong" class="cpmd">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -555,7 +547,7 @@
     </div>
 
     <!--产品参数-->
-    <div id="参数" class="cpmd">
+    <div id="canshu" class="cpmd">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -645,7 +637,7 @@
     </div>
 
     <!--产品配件-->
-    <div id="配件" class="cpmd">
+    <div id="peijian" class="cpmd">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>

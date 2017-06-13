@@ -33,7 +33,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#prMenuBox" style="position: relative;">
     <!--顶部-->
     <?php
         require("inc/header.php");
@@ -54,21 +54,21 @@
                 <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
                     关于我们
                 </div>
-                <div class="col-md-6 proMenu">
-                    <div><a href="#ppjieshao">品牌简介</a></div>
-                    <div><a href="#fazhan">发展历程</a></div>
-                    <div><a href="#lianxi">联系我们</a></div>
-                    <div style="margin-right: 15px;"><a href="#zxliuyan">在线留言</a></div>
-                    <div class="index-jdp-box" style="flex-grow: 3;">
+                <div class="col-md-6 proMenu nav">
+                    <li><a class="brand" href="#brand">品牌简介</a></li>
+                    <li><a class="history" href="#history">发展历程</a></li>
+                    <li><a class="contactus" href="#contactus">联系我们</a></li>
+                    <li style="margin-right: 15px;"><a href="#gbook" class="gbook">在线留言</a></li>
+                    <li class="index-jdp-box" style="flex-grow: 3;">
                         <a href="#">
                             <span class="hidden-xs">了解我们</span>
                              <span class="iconfont">&#xe60f;</span>
                         </a>  
-                    </div>
-                    <div class="index-lang-box hidden-xs">
+                    </li>
+                    <li class="index-lang-box hidden-xs">
                         <a href="javascript:pageScroll();" class="hidden-xs">回到顶部</a>
                         <!-- <a href="#" class="hidden-sm hidden-md hidden-lg">TOP</a> -->
-                    </div>
+                    </li>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
 
 
     <!--品牌简介-->
-    <div class="cpmd" id="ppjieshao">
+    <div class="cpmd" id="brand">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -112,7 +112,7 @@
     </div>
 
     <!--发展历程-->
-    <div class="cpmd" id="fazhan">
+    <div class="cpmd" id="history">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -133,6 +133,13 @@
         <div class="container">
             <div class="row usegrid">
                 <div class="col-xs-12 about-history">
+                   
+                   <div class="historyListB">
+                        <div class="col-sm-1 col-xs-12 historyYear">2016</div>
+                        <div class="col-sm-11 col-xs-12 historyContent">
+                            深圳市鑫辉光电有限公司正式成立，专门从事自主研发、生产、销售及品牌运营高品质照明工具。
+                        </div>
+                   </div>
 
                    <div class="historyListB">
                         <div class="col-xs-12 col-sm-1 historyYear">2015</div>
@@ -224,7 +231,7 @@
     </div>
 
     <!--联系我们-->
-    <div class="cpmd" id="lianxi">
+    <div class="cpmd" id="contactus">
         <div class="container">
             <div class="row hidden-xs" style="height:50px;"></div>
             <div class="row visible-xs-block" style="height:20px;"></div>
@@ -285,7 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top:30px;margin:0;">
+            <div class="row" style="margin-top:30px;margin:0;" id="gbook">
                 <div class="col-xs-12 col-sm-6 contactForm">
                     <div class="contactusTitle">留言</div>
                     <form class="form-horizontal">
@@ -332,6 +339,7 @@
     </div>
 
 
+
     <!--底部共用-->
     <?php
         require("inc/footer.php");
@@ -371,6 +379,21 @@
         function pageScroll() { 
             $('body').animate({scrollTop: 0}, 500); 
         }
+        // 滚动监听
+        $('body').scrollspy({
+            offset:150,
+            target: '#prMenuBox'
+        })
+        // 平滑滚动到指定锚点
+        $("a.brand,a.history,a.contactus,a.gbook").click(function() {  
+            $("html, body").animate({  
+                scrollTop: $($(this).attr("href")).offset().top - 60 + "px"  
+            }, {  
+                duration: 1000,  
+                easing: "swing"  
+            });  
+            return false;  
+        }); 
     </script>
 </body>
 </html>

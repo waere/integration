@@ -88,8 +88,9 @@
             </div>
         </div>
     </div>
+    
     <!--详情-->
-    <div id="advDetail" v-show="nv1Status">
+    <div id="advDetail" v-show="nv1Status" data-spy="scroll" data-target="#advDetailZhiShiQi" style="position: relative;">
 
         <!--详情图片1-->
         <div class="p-detailBox">
@@ -129,7 +130,6 @@
                 </div>
             </div>      
         </div>
-
         <!--详情图片2-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -160,7 +160,6 @@
                 <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"></div>
             </div>       
         </div>
-
         <!--详情图片3-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -188,7 +187,6 @@
                 </div>
             </div>       
         </div>
-
         <!--详情图片4-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -225,7 +223,6 @@
                 </div>
             </div>        
         </div>
-
         <!--详情图片5-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -264,7 +261,6 @@
                 </div>
             </div>        
         </div>
-
         <!--详情图片6-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -302,16 +298,24 @@
 
         <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/C22C/c22c-022.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos1">
+                    <img src="images/C22C/c22c-022-l.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="leftNavFlex">
                         <div class="navWhatText">Why wait ? Order yours now .</div>
-                        <div class="navNowBuy"><a href="http://item.jd.com/10983744069.html" target="view_window">立即购买</a></div>
-                    </div>
+                        <div class="navNowBuy">
+                            <a href="http://item.jd.com/10983744069.html" target="view_window" onmouseenter='$("#navLimgPos1").fadeIn();' onmouseout='$("#navLimgPos1").fadeOut();'>立即购买</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos1">
+                    <img src="images/C22C/c22c-022-r.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="rightNavFlex">
-                        <a href="javascript:advNavBar.changeTab(2);">
+                        <a href="javascript:advNavBar.changeTab(2);" onmouseenter='$("#navRimgPos1").fadeIn();' onmouseout='$("#navRimgPos1").fadeOut();'>
                             <div class="rightTipsText">
                                 NEXT<br />
                                 场景 SCENE
@@ -328,8 +332,7 @@
     </div>
 
     <!--场景-->
-    <div id="advScenario" v-show="nv2Status">
-        
+    <div id="advScenario" v-show="nv2Status">        
         <!--场景图片1-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -512,100 +515,103 @@
         </div>
 
         <!--产品卖点部分-->
-    <div id="卖点" class="cpmd">
-        <div class="container">
-            <!--卖点标题-->
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-            <div class="row">
-                <div class="col-xs-9">
-                    <div class="cpmd-title">C22C 产品卖点</div>
-                    <div>首页/产品中心/C22C/卖点</div>
+        <div id="卖点" class="cpmd">
+            <div class="container">
+                <!--卖点标题-->
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="cpmd-title">C22C 产品卖点</div>
+                        <div>首页/产品中心/C22C/卖点</div>
+                    </div>
+                    <div class="col-xs-3 cpmd-titleIco">
+                        <span class="iconfont">&#xe61e;</span>
+                    </div>
                 </div>
-                <div class="col-xs-3 cpmd-titleIco">
-                    <span class="iconfont">&#xe61e;</span>
-                </div>
-            </div>
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-        </div>
-    </div>
-    <div class="cpmd2">
-        <div class="container">
-            <!--卖点列表-->
-            <div class="row cpmdList">
-                <ul>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        主灯采用一颗Cree XM-L2 U2 LED，侧灯采用一颗CREE XP-G2 R5 LED
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        尾部配备高强度吸附力磁铁，可方便固定于任何角度的铁质表面
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        尾部配备高强度钨钢材质击玻器
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        恒流电路，亮度恒定
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        有效射程达208米
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        使用一节18650电池电池或者两节CR123A电池
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        工作电压：2.8~8.4V 
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        主灯采用优质金属光面反光杯，兼顾聚光和泛光，光斑完美 侧灯采用透镜
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        重量：88.3g（不含电池）
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        采用航天级铝合金制造，头部不锈钢压环
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        军规三级硬质氧化
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        IPX-8级防水
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        增韧超清晰钢化玻璃镜片，防刮耐磨
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        战术开关，可瞬间点亮
-                    </li>
-                    <li class="col-xs-12 col-sm-6">
-                        <span class="iconfont"></span>
-                        附件：防水O圈、手绳、抱夹
-                    </li>
-                </ul>
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
             </div>
         </div>
-    </div>
+        <div class="cpmd2">
+            <div class="container">
+                <!--卖点列表-->
+                <div class="row cpmdList">
+                    <ul>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            主灯采用一颗Cree XM-L2 U2 LED，侧灯采用一颗CREE XP-G2 R5 LED
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            尾部配备高强度吸附力磁铁，可方便固定于任何角度的铁质表面
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            尾部配备高强度钨钢材质击玻器
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            恒流电路，亮度恒定
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            有效射程达208米
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            使用一节18650电池电池或者两节CR123A电池
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            工作电压：2.8~8.4V 
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            主灯采用优质金属光面反光杯，兼顾聚光和泛光，光斑完美 侧灯采用透镜
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            重量：88.3g（不含电池）
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            采用航天级铝合金制造，头部不锈钢压环
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            军规三级硬质氧化
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            IPX-8级防水
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            增韧超清晰钢化玻璃镜片，防刮耐磨
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            战术开关，可瞬间点亮
+                        </li>
+                        <li class="col-xs-12 col-sm-6">
+                            <span class="iconfont"></span>
+                            附件：防水O圈、手绳、抱夹
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/C22C/c22c-022.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos2">
+                    <img src="images/C22C/c22c-022-l.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="rightNavFlexA">
-                        <a href="javascript:advNavBar.changeTab(1);">
+                        <a href="javascript:advNavBar.changeTab(1);" onmouseenter='$("#navLimgPos2").fadeIn();' onmouseout='$("#navLimgPos2").fadeOut();'>
                             <div class="rightTipsArrow">
                                 <img src="images/larrow.png" alt="">
                             </div>
@@ -616,9 +622,12 @@
                         </a>
                     </div>                    
                 </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos2">
+                    <img src="images/C22C/c22c-022-r.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="rightNavFlex">
-                        <a href="javascript:advNavBar.changeTab(3);">
+                        <a href="javascript:advNavBar.changeTab(3);" onmouseenter='$("#navRimgPos2").fadeIn();' onmouseout='$("#navRimgPos2").fadeOut();'>
                             <div class="rightTipsText">
                                 NEXT<br />
                                 参数 PARAMETER
@@ -636,7 +645,6 @@
 
     <!--参数-->
     <div id="advParam" v-show="nv3Status">
-        
         <!--产品使用说明-->
         <div id="使用" class="cpmd">
             <div class="container">
@@ -784,132 +792,135 @@
         </div>
 
         <!--产品参数-->
-    <div id="参数" class="cpmd">
-        <div class="container">
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-            <div class="row">
-                <div class="col-xs-9">
-                    <div class="cpmd-title">C22C 产品参数</div>
-                    <div>首页/产品中心/C22C/参数</div>
+        <div id="参数" class="cpmd">
+            <div class="container">
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="cpmd-title">C22C 产品参数</div>
+                        <div>首页/产品中心/C22C/参数</div>
+                    </div>
+                    <div class="col-xs-3 cpmd-titleIco">
+                        <span class="iconfont">&#xe621;</span>
+                    </div>
                 </div>
-                <div class="col-xs-3 cpmd-titleIco">
-                    <span class="iconfont">&#xe621;</span>
-                </div>
-            </div>
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-        </div>
-    </div>
-    <div class="cpmd2">
-        <div class="container">
-            <div class="row proDetail-imgbox">
-                <div class="col-xs-12" style="text-align:center;margin-bottom: 60px;">
-                    <img src="images/C22C/C22C-021.png" class="img-responsive" style="display:inline;">
-                </div>
-            </div>
-            <div class="row proDetail">
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe634;</i>
-                    <span>筒身长度 110mm</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe636;</i>
-                    <span>头部直径 28 mm</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe635;</i>
-                    <span>尾部直径 25 mm</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe637;</i>
-                    <span>主Cree XM-L2 U2 LED，侧CREE XP-G2 R5 LED</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe638;</i>
-                    <span>最大输出 1000 流明</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe639;</i>
-                    <span>最大射程 208 米</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63a;</i>
-                    <span>材质  铝合金</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63b;</i>
-                    <span>产品重量 88.3g（不含电池）</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63c;</i>
-                    <span>使用电池 1 × 18650, 2 × CR123</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63d;</i>
-                    <span>续航时间 27流明（60个小时）</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63e;</i>
-                    <span>IPX-8级防水</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe63f;</i>
-                    <span>光杯种类 光面</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe640;</i>
-                    <span>特殊模式 SOS, 信标, 暴闪</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe641;</i>
-                    <span>色温类型 白光</span>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 detailList">
-                    <i class="iconfont">&#xe642;</i>
-                    <span>应用场景 工具, 户外/露营, 搜索</span>
-                </div>
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
             </div>
         </div>
-    </div>
-
-    <!--产品配件-->
-    <div id="配件" class="cpmd">
-        <div class="container">
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-            <div class="row">
-                <div class="col-xs-9">
-                    <div class="cpmd-title">C22C 产品配件</div>
-                    <div>首页/产品中心/C22C/配件</div>
+        <div class="cpmd2">
+            <div class="container">
+                <div class="row proDetail-imgbox">
+                    <div class="col-xs-12" style="text-align:center;margin-bottom: 60px;">
+                        <img src="images/C22C/C22C-021.png" class="img-responsive" style="display:inline;">
+                    </div>
                 </div>
-                <div class="col-xs-3 cpmd-titleIco">
-                    <span class="iconfont">&#xe622; </span>
-                </div>
-            </div>
-            <div class="row hidden-xs" style="height:50px;"></div>
-            <div class="row visible-xs-block" style="height:20px;"></div>
-        </div>
-    </div>
-    <div class="cpmd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="p-detailImgBox">
-                        <img data-original="images/C22C/c22c-018.jpg" class="img-responsive hidden-xs">
-                        <img data-original="images/C22C/c22c-018-s.jpg" class="img-responsive visible-xs-inline">
+                <div class="row proDetail">
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe634;</i>
+                        <span>筒身长度 110mm</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe636;</i>
+                        <span>头部直径 28 mm</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe635;</i>
+                        <span>尾部直径 25 mm</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe637;</i>
+                        <span>主Cree XM-L2 U2 LED，侧CREE XP-G2 R5 LED</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe638;</i>
+                        <span>最大输出 1000 流明</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe639;</i>
+                        <span>最大射程 208 米</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63a;</i>
+                        <span>材质  铝合金</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63b;</i>
+                        <span>产品重量 88.3g（不含电池）</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63c;</i>
+                        <span>使用电池 1 × 18650, 2 × CR123</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63d;</i>
+                        <span>续航时间 27流明（60个小时）</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63e;</i>
+                        <span>IPX-8级防水</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe63f;</i>
+                        <span>光杯种类 光面</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe640;</i>
+                        <span>特殊模式 SOS, 信标, 暴闪</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe641;</i>
+                        <span>色温类型 白光</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 detailList">
+                        <i class="iconfont">&#xe642;</i>
+                        <span>应用场景 工具, 户外/露营, 搜索</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+    <!--产品配件-->
+        <div id="配件" class="cpmd">
+            <div class="container">
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="cpmd-title">C22C 产品配件</div>
+                        <div>首页/产品中心/C22C/配件</div>
+                    </div>
+                    <div class="col-xs-3 cpmd-titleIco">
+                        <span class="iconfont">&#xe622; </span>
+                    </div>
+                </div>
+                <div class="row hidden-xs" style="height:50px;"></div>
+                <div class="row visible-xs-block" style="height:20px;"></div>
+            </div>
+        </div>
+        <div class="cpmd2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="p-detailImgBox">
+                            <img data-original="images/C22C/c22c-018.jpg" class="img-responsive hidden-xs">
+                            <img data-original="images/C22C/c22c-018-s.jpg" class="img-responsive visible-xs-inline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/c22c/c22c-022.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos3">
+                    <img src="images/C22C/c22c-022-l.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="rightNavFlexA">
-                        <a href="javascript:advNavBar.changeTab(2);">
+                        <a href="javascript:advNavBar.changeTab(2);" onmouseenter='$("#navLimgPos3").fadeIn();' onmouseout='$("#navLimgPos3").fadeOut();'>
                             <div class="rightTipsArrow">
                                 <img src="images/larrow.png" alt="">
                             </div>
@@ -920,10 +931,15 @@
                         </a>
                     </div>                    
                 </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos3">
+                    <img src="images/C22C/c22c-022-r.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="leftNavFlex">
                         <div class="navWhatTextA">Why wait ? Order yours now .</div>
-                        <div class="navNowBuyA"><a href="http://item.jd.com/10983744069.html" target="view_window">立即购买</a></div>
+                        <div class="navNowBuyA">
+                            <a href="http://item.jd.com/10983744069.html" target="view_window" onmouseenter='$("#navRimgPos3").fadeIn();' onmouseout='$("#navRimgPos3").fadeOut();'>立即购买</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -931,6 +947,17 @@
 
 
     </div>
+
+    <!--右侧指示器 by 2017-06-09-->
+<!--     <div class="zhishiqi">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div> -->
     
     <!--底部分类翻转-->
     <?php

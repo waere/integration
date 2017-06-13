@@ -45,7 +45,7 @@
     <div class="pro-menu-box" id="prMenuBox">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 proTitle hidden-xs hidden-sm">                    
+                <div class="col-md-6 proTitle hidden-xs hidden-sm">              
                     下载中心
                 </div>
                 <div class="col-md-6 proMenu">
@@ -106,7 +106,7 @@
                 </div>
             </div>
             <hr/>
-            <div class="downbox">
+            <div class="downbox" id="cpsms">
                 <div class="col-xs-12 dwtit">产品说明书</div>
                 <!--数据绑定-->
                 <div class="col-xs-12 dwsmbox">
@@ -198,18 +198,18 @@
                                 },
                                 {
                                     cpName:'T16R',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/T16R-Instructions.doc',
+                                    fileName:'T16R-Instructions.doc'
                                 },
                                 {
                                     cpName:'V11R',
-                                    cpUrl:'file/V11R-Instructions.docx',
-                                    fileName:'V11R-Instructions.docx'
+                                    cpUrl:'file/V11R-Instructions.doc',
+                                    fileName:'V11R-Instructions.doc'
                                 },
                                 {
                                     cpName:'C13R',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/C13R-Instructions.doc',
+                                    fileName:'C13R-Instructions.doc'
                                 }
                             ]
                         },
@@ -223,18 +223,18 @@
                                 },
                                 {
                                     cpName:'C22C',
-                                    cpUrl:'file/C22C-Instructions.docx',
+                                    cpUrl:'file/C22C-Instructions.doc',
                                     fileName:'C22C-Instructions.doc'
                                 },
                                 {
                                     cpName:'T26C',
-                                    cpUrl:'file/T26C-Instructions.docx',
-                                    fileName:'T26C-Instructions.docx'
+                                    cpUrl:'file/T26C-Instructions.doc',
+                                    fileName:'T26C-Instructions.doc'
                                 },
                                 {
                                     cpName:'C23C',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/C23C-Instructions.doc',
+                                    fileName:'C23C-Instructions.doc'
                                 }
                             ]
                         }
@@ -247,28 +247,28 @@
                             xlLis:[
                                 {
                                     cpName:'G20C',
-                                    cpUrl:'file/G20C-Instructions.docx',
-                                    fileName:'G20C-Instructions.docx'
+                                    cpUrl:'file/G20C-Instructions.doc',
+                                    fileName:'G20C-Instructions.doc'
                                 },
                                 {
                                     cpName:'G25C',
-                                    cpUrl:'file/G25C-Instructions.docx',
-                                    fileName:'25C-Instructions.docx'
+                                    cpUrl:'file/G25C-Instructions.doc',
+                                    fileName:'25C-Instructions.doc'
                                 },
                                 {
                                     cpName:'T20CC',
-                                    cpUrl:'file/T20CC-Instructions.docx',
-                                    fileName:'T20CC-Instructions.docx'
+                                    cpUrl:'file/T20CC-Instructions.doc',
+                                    fileName:'T20CC-Instructions.doc'
                                 },
                                 {
                                     cpName:'T25C',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/T25C-Instructions.doc',
+                                    fileName:'T25C-Instructions.doc'
                                 },
                                 {
                                     cpName:'P25C',
-                                    cpUrl:'file/P25C-Instructions.docx',
-                                    fileName:'P25C-Instructions.docx'
+                                    cpUrl:'file/P25C-Instructions.doc',
+                                    fileName:'P25C-Instructions.doc'
                                 }
                             ]
                         },
@@ -277,18 +277,18 @@
                             xlLis:[
                                 {
                                     cpName:'D40A',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/D40A-Instructions.doc',
+                                    fileName:'D40A-Instructions.doc'
                                 },
                                 {
                                     cpName:'T40CS',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/T40CS-PLUS-Instructions.doc',
+                                    fileName:'T40CS-PLUS-Instructions.doc'
                                 },
                                 {
                                     cpName:'T60CS',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/T60CS-Instructions.doc',
+                                    fileName:'T60CS-Instructions.doc'
                                 }
                             ]
                         }
@@ -301,18 +301,18 @@
                             xlLis:[
                                 {
                                     cpName:'T16R CU',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/T16R-CU-Instructions.doc',
+                                    fileName:'T16R-CU-Instructions.doc'
                                 },
                                 {
                                     cpName:'C25C Ti',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/C25C-TI-Instructions.doc',
+                                    fileName:'C25C-TI-Instructions.doc'
                                 },
                                 {
                                     cpName:'M25C Ti',
-                                    cpUrl:'#',
-                                    fileName:''
+                                    cpUrl:'file/M25CTI-Instructions.doc',
+                                    fileName:'M25CTI-Instructions.doc'
                                 }
                             ]
                         },

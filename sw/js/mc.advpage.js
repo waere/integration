@@ -13,6 +13,7 @@ function changeAdvBNav()
     // $(".advBottomBg:eq(2)").css({"height":$(this).width()*0.21+"px"});
     $(".navFlexL,.navFlexR").css({"margin-top":$(".advBottomBg").height()/2-$(".navFlexL").height()/2+"px"});
     // console.log($(".index-logo").offset().left);
+    $(".zhishiqi").css("top",($(window).height() - $(".zhishiqi").height())/2 + "px");
 }
 // 小分类菜单数据
 var sNavObj = {

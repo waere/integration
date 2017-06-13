@@ -7,13 +7,13 @@ var webNavObj = {
         {mid:'m1',surl:'products.php',mtext:'产品中心',canSee:false,canPCShow:true},
         {mid:'m2',surl:'C22C.php',mtext:'新品推荐',canSee:false,canPCShow:true},
         {mid:'m3',surl:'servers.php',mtext:'服务与支持',canSee:false,canPCShow:true,subList:[
-            {subTitle:'服务政策',subUrl:'servers.php#shzhengce'},
-            {subTitle:'产品验证',subUrl:'servers.php#yanzheng'},
-            {subTitle:'申请评测',subUrl:'servers.php#shenqing'}
+            {subTitle:'服务政策',subUrl:'servers.php#fwzc'},
+            {subTitle:'产品验证',subUrl:'servers.php#cpyz'},
+            {subTitle:'申请评测',subUrl:'servers.php#sqcp'}
         ]},
         {mid:'m4',surl:'dealers.php',mtext:'经销商',canSee:false,canPCShow:true,subList:[
             {subTitle:'经销商查询',subUrl:'dealers.php#jxscx'},
-            {subTitle:'成为经销商',subUrl:'dealers.php#cwjxs'}
+            {subTitle:'成为经销商',subUrl:'dealers.php#jxsxz'}
         ]},
         {mid:'m5',surl:'aboutus.php',mtext:'关于',canSee:false,canPCShow:true}
     ]
@@ -169,7 +169,7 @@ var productsNavObj = {
                 mtitle: "限量收藏",
                 mdd: [
                     {
-                        mtitle: "T16R CU",
+                        mtitle: "T16R-CU",
                         murl: "T16R-CU.php",
                         mdesc: "小霸王980流明掌中宝<br>双键触摸侧按开<br>不锈钢头部压环",
                         mimg: "images/p-T16R.CU.png"
@@ -260,19 +260,19 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'品牌介绍',
-                    ddUrl:'aboutus.php#ppjieshao'
+                    ddUrl:'aboutus.php#brand'
                 },
                 {
                     ddName:'发展历程',
-                    ddUrl:'aboutus.php#fazhan'
+                    ddUrl:'aboutus.php#history'
                 },
                 {
                     ddName:'联系我们',
-                    ddUrl:'aboutus.php#lianxi'
+                    ddUrl:'aboutus.php#contactus'
                 },
                 {
                     ddName:'在线留言',
-                    ddUrl:'aboutus.php#zxliuyan'
+                    ddUrl:'aboutus.php#gbook'
                 }
             ]
         },
@@ -330,15 +330,15 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'售后服务政策',
-                    ddUrl:'servers.php#shzhengce'
+                    ddUrl:'servers.php#fwzc'
                 },
                 {
                     ddName:'产品验证',
-                    ddUrl:'servers.php#yanzheng'
+                    ddUrl:'servers.php#cpyz'
                 },
                 {
                     ddName:'申请评测',
-                    ddUrl:'servers.php#shenqing'
+                    ddUrl:'servers.php#sqcp'
                 }
             ]
         },
@@ -348,11 +348,11 @@ var bottomNavObj = {
             ddLits:[
                 {
                     ddName:'产品手册',
-                    ddUrl:'download.php'
+                    ddUrl:'download.php#xzzx'
                 },
                 {
                     ddName:'产品说明书',
-                    ddUrl:'download.php'
+                    ddUrl:'download.php#cpsms'
                 },
                 {
                     ddName:'产品海报',

@@ -90,7 +90,6 @@
     </div>
     <!--详情-->
     <div id="advDetail" v-show="nv1Status">
-
         <!--详情图片1-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -129,7 +128,6 @@
                 </div>
             </div>      
         </div>
-
         <!--详情图片2-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -166,7 +164,6 @@
                 </div>
             </div>       
         </div>
-
         <!--详情图片3-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -203,7 +200,6 @@
                 </div>
             </div>       
         </div>
-
         <!--详情图片4-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -238,7 +234,6 @@
                 </div>
             </div>        
         </div>
-
         <!--详情图片5-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -269,7 +264,6 @@
                 <div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s"> </div>
             </div>        
         </div>
-
         <!--详情图片6-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -307,16 +301,24 @@
 
         <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/C23C/C23C-020.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos1">
+                    <img src="images/C23C/c23c-018.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="leftNavFlex">
                         <div class="navWhatText">Why wait ? Order yours now .</div>
-                        <div class="navNowBuy"><a href="http://sunwayman.jd.com" target="view_window">立即购买</a></div>
-                    </div>
+                        <div class="navNowBuy">
+                            <a href="http://item.jd.com/10985104780.html" target="view_window" onmouseenter='$("#navLimgPos1").fadeIn();' onmouseout='$("#navLimgPos1").fadeOut();'>立即购买</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos1">
+                    <img src="images/C23C/c23c-019.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="rightNavFlex">
-                        <a href="javascript:advNavBar.changeTab(2);">
+                        <a href="javascript:advNavBar.changeTab(2);" onmouseenter='$("#navRimgPos1").fadeIn();' onmouseout='$("#navRimgPos1").fadeOut();'>
                             <div class="rightTipsText">
                                 NEXT<br />
                                 场景 SCENE
@@ -333,8 +335,7 @@
     </div>
 
     <!--场景-->
-    <div id="advScenario" v-show="nv2Status">
-        
+    <div id="advScenario" v-show="nv2Status">        
         <!--场景图片1-->
         <div class="p-detailBox">
             <!--图片部分-->
@@ -521,10 +522,13 @@
 
         <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/C23C/C23C-020.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos2">
+                    <img src="images/C23C/c23c-018.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="rightNavFlexA">
-                        <a href="javascript:advNavBar.changeTab(1);">
+                        <a href="javascript:advNavBar.changeTab(1);" onmouseenter='$("#navLimgPos2").fadeIn();' onmouseout='$("#navLimgPos2").fadeOut();'>
                             <div class="rightTipsArrow">
                                 <img src="images/larrow.png" alt="">
                             </div>
@@ -535,9 +539,12 @@
                         </a>
                     </div>                    
                 </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos2">
+                    <img src="images/C23C/c23c-019.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="rightNavFlex">
-                        <a href="javascript:advNavBar.changeTab(3);">
+                        <a href="javascript:advNavBar.changeTab(3);" onmouseenter='$("#navRimgPos2").fadeIn();' onmouseout='$("#navRimgPos2").fadeOut();'>
                             <div class="rightTipsText">
                                 NEXT<br />
                                 参数 PARAMETER
@@ -554,8 +561,7 @@
     </div>
 
     <!--参数-->
-    <div id="advParam" v-show="nv3Status">
-        
+    <div id="advParam" v-show="nv3Status">        
         <!--产品使用说明-->
         <div id="使用" class="cpmd">
             <div class="container">
@@ -599,8 +605,7 @@
             </div>
             <!--文字动画框PC|直接style 到时此样式由后台程序输出控制，不固定样式-->
              
-            <!--文字动画框手机-->
-               
+            <!--文字动画框手机-->               
         </div>
         <!--使用说明图片2-->
         <div class="p-detailBox">
@@ -801,10 +806,13 @@
 
     <!--pc底部左右Tab切换 | 图片背景直接写到页面里，将来每个产品这张图不一样的-->
         <div class="container-fluid ctfloat hidden-xs nopd">
-            <div class="row advBottomBg" style="background:url('images/C23C/C23C-020.png') no-repeat top center;background-size:cover;">
+            <div class="row advBottomBg" style="position:relative">
+                <div class="col-sm-6 navLimgPos" style="display:none" id="navLimgPos3">
+                    <img src="images/C23C/c23c-018.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexL">
                     <div class="rightNavFlexA">
-                        <a href="javascript:advNavBar.changeTab(2);">
+                        <a href="javascript:advNavBar.changeTab(2);" onmouseenter='$("#navLimgPos3").fadeIn();' onmouseout='$("#navLimgPos3").fadeOut();'>
                             <div class="rightTipsArrow">
                                 <img src="images/larrow.png" alt="">
                             </div>
@@ -815,10 +823,15 @@
                         </a>
                     </div>                    
                 </div>
+                <div class="col-sm-6 navRimgPos" style="display:none" id="navRimgPos3">
+                    <img src="images/C23C/c23c-019.png" class="img-responsive">
+                </div>
                 <div class="col-sm-6 navFlexR">
                     <div class="leftNavFlex">
                         <div class="navWhatTextA">Why wait ? Order yours now .</div>
-                        <div class="navNowBuyA"><a href="http://item.jd.com/10985104780.html" target="view_window">立即购买</a></div>
+                        <div class="navNowBuyA">
+                            <a href="http://item.jd.com/10985104780.html" target="view_window" onmouseenter='$("#navRimgPos3").fadeIn();' onmouseout='$("#navRimgPos3").fadeOut();'>立即购买</a>
+                        </div>
                     </div>
                 </div>
             </div>
