@@ -46,13 +46,13 @@
             <div class="wow fadeInUp" style="color: #23b94e;font-size: 30px;line-height: 60px;font-weight:600;" data-wow-duration="0.5s" data-wow-delay="0s">G25C</div>
             <div class="wow fadeInUp" style="font-size: 36px;line-height: 60px;font-weight:600;" data-wow-duration="0.5s" data-wow-delay="0.5s">1000流明 · 双尾按“双子座”手电</div>
             <div class="wow fadeInUp" style="font-size: 20px;line-height: 50px;" data-wow-duration="0.5s" data-wow-delay="0.8s"> </div>
-            <div class="pt4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.2s"><a href="#详情">产品详情</a></div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.2s"><a href="#xiangqing">产品详情</a></div>
         </div>       
         <!--文字动画框手机-->
         <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:10%;text-align:center;position: absolute;color: #fff;">
             <h3 class="wow fadeInUp" style="color: #0da851;font-size: 32px;font-weight: 600;margin-top: 0;" data-wow-duration="0.5s" data-wow-delay="0s">G25C</h3>
             <h2 class="wow fadeInUp" style="font-size: 20px;margin-top: 0;" data-wow-duration="0.5s" data-wow-delay="0.5s">1000流明 · 双尾按“双子座”手电</h2>
-            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="margin-top: 50px;"><a href="#详情" style="border-bottom: 1px solid #0da851;padding-bottom: 10px;">产品详情</a></p>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.8s" style="margin-top: 50px;"><a href="#xiangqing" style="border-bottom: 1px solid #0da851;padding-bottom: 10px;">产品详情</a></p>
         </div>
     </div>
     <!--产品详情页菜单-->

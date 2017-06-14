@@ -242,7 +242,7 @@
         <div class="mthree-wrapper">
             <div class="three-MPart">
                 <div class="threeMPic">
-                    <a href="#"><img src="images/1_show_1.jpg" class="img-responsive"></a>
+                    <a href="T16R-CU.php"><img src="images/1_show_1.jpg" class="img-responsive"></a>
                 </div>
                 <div class="threeMTxt">
                     <h3>冲破黑暗封印</h3>
@@ -251,7 +251,7 @@
             </div>
             <div class="three-MPart">
                 <div class="threeMPic">
-                    <a href="#"><img src="images/1_show_2.jpg" class="img-responsive"></a>
+                    <a href="C23C.php"><img src="images/1_show_2.jpg" class="img-responsive"></a>
                 </div>
                 <div class="threeMTxt">
                     <h3>小块头有大能量的小胖墩</h3>
@@ -260,7 +260,7 @@
             </div>
             <div class="three-MPart">
                 <div class="threeMPic">
-                    <a href="#"><img src="images/1_show_3.jpg" class="img-responsive"></a>
+                    <a href="C22C.php"><img src="images/1_show_3.jpg" class="img-responsive"></a>
                 </div>
                 <div class="threeMTxt">
                     <h3>手电L型灯的和谐统一</h3>

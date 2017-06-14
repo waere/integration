@@ -55,7 +55,7 @@
                 自助服务快捷省时，通过自助服务您可以快速体验寄送快修、预约维修、上门快修等服务。<br />
                 您也可以联系我们客服人员，我们将竭诚为您服务。
             </div>
-            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#shzhengce" style="color:#666666;">了解更多</a></div>
+            <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#fwzc" style="color:#666666;">了解更多</a></div>
         </div>       
         <!--文字动画框手机-->
         <div class="visible-xs-inline" style="width:100%;padding:10px;overflow:hidden;top:5%;text-align:center;position: absolute;color: #666666;">
@@ -66,7 +66,7 @@
                 您也可以联系我们客服人员，我们将竭诚为您服务。
             </h2>
             <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                <a href="#shzhengce" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#666666;">了解更多</a>
+                <a href="#fwzc" style="border-bottom: 2px solid #0da851;padding-bottom: 8px;color:#666666;">了解更多</a>
             </p>
         </div>
     </div>

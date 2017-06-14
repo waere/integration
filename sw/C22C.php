@@ -48,14 +48,14 @@
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 30px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">C22C</div>
                 <div class="wow bounceInRight" style="font-size: 36px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">业界领先，手电、L型灯和谐统一</div>
                 <div class="wow bounceInRight" style="font-size: 20px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s">380流明 双灯同亮“夜行者”</div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xingqing">产品详情</a></div>
             </div>       
             <!--文字动画框手机-->
             <div class="visible-xs-inline" style="width:90%;left:10%;overflow:hidden;top:5%;text-align:left;position: absolute;color: #fff;">
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 18px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">C22C</div>
                 <div class="wow bounceInRight" style="font-size: 22px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">业界领先，手电、L型灯和谐统一</div>
                 <div class="wow bounceInRight" style="font-size: 16px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s">380流明 双灯同亮“夜行者”</div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xingqing">产品详情</a></div>
             </div>
         </div>
         <!--场景-->
@@ -93,7 +93,7 @@
     <div id="advDetail" v-show="nv1Status" data-spy="scroll" data-target="#advDetailZhiShiQi" style="position: relative;">
 
         <!--详情图片1-->
-        <div class="p-detailBox">
+        <div class="p-detailBox" id="xingqing">
             <!--图片部分-->
             <div class="p-detailImgBox">
                 <img data-original="images/C22C/c22c-002.jpg" class="img-responsive hidden-xs">

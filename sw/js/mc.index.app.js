@@ -1,12 +1,5 @@
 // 幻灯片
 var mySwiper = new Swiper ('.swiper-container', {
-    onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
-        swiperAnimateCache(swiper); //隐藏动画元素 
-        swiperAnimate(swiper); //初始化完成开始动画
-    }, 
-    onSlideChangeEnd: function(swiper){ 
-        swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-    },
     // initialSlide :5,
     autoplay : 5000,
     loop: true, 
@@ -16,6 +9,13 @@ var mySwiper = new Swiper ('.swiper-container', {
     // 如果需要前进后退按钮
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
+    onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+        swiperAnimateCache(swiper); //隐藏动画元素 
+        swiperAnimate(swiper); //初始化完成开始动画
+    }, 
+    onSlideChangeEnd: function(swiper){ 
+        swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+    }    
 });
 // 视频
 $(document).ready(function(){
@@ -55,16 +55,16 @@ $(document).ready(function(){
     $(".three-MPart").each(function(){
         $(this).css("width",$(document).width()*0.7+"px");
         $(this).css("height",$(this).width()*0.54+"px");
-        $(".mthree-wrapper").css("width",$(this).width()*3+35+"px");
+        $(".mthree-wrapper").css("width",$(this).width()*3+20+"px");
     });
-    $(".three-Mobile-Box").scrollLeft($(document).width()*0.55);
+    $(".three-Mobile-Box").scrollLeft($(document).width()*0.57);
     // 窗口变化时重置高度
     $(window).resize(function(){
         $("#three01,#three02,#three03,#three011,#three012,#three013").css("height",$("#threePart01").width()*0.54+"px");
         $(".three-MPart").each(function(){
             $(this).css("width",$(document).width()*0.7+"px");
             $(this).css("height",$(this).width()*0.54+"px");
-            $(".mthree-wrapper").css("width",$(this).width()*3+100+"px");
+            $(".mthree-wrapper").css("width",$(this).width()*3+20+"px");
         });
         changThreeIcoFlex();
     });

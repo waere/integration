@@ -48,14 +48,14 @@
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 30px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">C23C</div>
                 <div class="wow bounceInRight" style="font-size: 36px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">充电轻触系列</div>
                 <div class="wow bounceInRight" style="font-size: 20px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s"></div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xiangqing">产品详情</a></div>
             </div>       
             <!--文字动画框手机-->
             <div class="visible-xs-inline" style="width:100%;overflow:hidden;bottom:20%;text-align:center;position: absolute;color: #fff;">
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 18px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">C23C</div>
                 <div class="wow bounceInRight" style="font-size: 22px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">充电轻触系列</div>
                 <div class="wow bounceInRight" style="font-size: 16px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s"></div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xiangqing">产品详情</a></div>
             </div>
         </div>
         <!--场景-->
@@ -91,7 +91,7 @@
     <!--详情-->
     <div id="advDetail" v-show="nv1Status">
         <!--详情图片1-->
-        <div class="p-detailBox">
+        <div class="p-detailBox" id="xiangqing">
             <!--图片部分-->
             <div class="p-detailImgBox">
                 <img data-original="images/C23C/C23C-002.jpg" class="img-responsive hidden-xs">

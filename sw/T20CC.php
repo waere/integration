@@ -48,14 +48,14 @@
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 30px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">T20CC</div>
                 <div class="wow bounceInRight" style="font-size: 36px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">暴力唯美BOSS级手电</div>
                 <div class="wow bounceInRight" style="font-size: 20px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s"></div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#详情">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xiangqing">产品详情</a></div>
             </div>       
             <!--文字动画框手机-->
             <div class="visible-xs-inline" style="width:90%;left:10%;overflow:hidden;top:5%;text-align:left;position: absolute;color: #fff;">
                 <div class="wow fadeInUp" style="color: #23b94e;font-size: 18px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0s">T20CC</div>
                 <div class="wow bounceInRight" style="font-size: 22px;line-height: 60px;font-weight:600;" data-wow-duration="1s" data-wow-delay="0.5s">暴力唯美BOSS级手电</div>
                 <div class="wow bounceInRight" style="font-size: 16px;line-height: 50px;" data-wow-duration="1s" data-wow-delay="0.8s"></div>
-                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#">产品详情</a></div>
+                <div class="pt4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"><a href="#xiangqing">产品详情</a></div>
             </div>
         </div>
         <!--场景-->
@@ -91,7 +91,7 @@
     <!--详情-->
     <div id="advDetail" v-show="nv1Status">
         <!--详情图片1-->
-        <div class="p-detailBox">
+        <div class="p-detailBox" id="xiangqing">
             <!--图片部分-->
             <div class="p-detailImgBox">
                 <img data-original="images/T20CC/T20CC-002.jpg" class="img-responsive hidden-xs">
