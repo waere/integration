@@ -53,4 +53,17 @@
                 </div>
             </div>
         </div>        
+</div>
+<div class="live-chat hidden-xs">
+    <ul>
+        <li class="live-logo"><a href="index.php"><img src="images/x-001.jpg" alt=""></a></li>
+        <li class="live-top"><a href="javascript:void(0)"></a></li>
+        <li class="live-call"><a href="javascript:void(0)"></a></li>
+        <li class="live-ewma"><a href="javascript:void(0)"></a></li>
+    </ul>
+    <div class="live-callbox"><img src="images/x-009.jpg" alt=""></div>
+    <div class="live-ewmabox"><img src="images/x-008.jpg" alt=""></div>
+    <div class="live-chatbox">
+        <script type="text/javascript" src="http://c.ibangkf.com/i/c-sunwayman.js"></script>
     </div>
+</div>

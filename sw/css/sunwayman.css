@@ -2296,6 +2296,61 @@ a:visited{
 .hbxz .hbimg img{
     width: 100%;
 }
+/*在线客服悬浮窗*/
+.live-chat{
+    position: fixed;
+    bottom:125px;
+    right: 10px;
+    width: 60px;
+    z-index: 100;
+    background: #23b94f;
+    display: none;
+}
+#ib_kfList{display: none;}
+.live-chat ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.live-chat ul li{
+    list-style-type: none;
+    width: 100%;
+    height: 60px;
+}
+.live-chat ul li img{
+    width: 100%;
+}
+.live-chat ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.live-chat .live-top a{background: url(../images/x-002.jpg) no-repeat;}
+.live-chat .live-top a:hover{background: url(../images/x-003.jpg) no-repeat;}
+.live-chat .live-call a{background: url(../images/x-004.jpg) no-repeat;}
+.live-chat .live-call a:hover{background: url(../images/x-005.jpg) no-repeat;}
+.live-chat .live-ewma a{background: url(../images/x-006.jpg) no-repeat;}
+.live-chat .live-ewma a:hover{background: url(../images/x-007.jpg) no-repeat;}
+.live-callbox{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    width: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+}
+.live-ewmabox{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    /*display: none;*/
+    width: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+}
+
 
 @media screen and (max-width:768px){
     .about-history{
