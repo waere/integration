@@ -65,6 +65,8 @@ function changeSList() {
             "width":"1000px",
             "justify-content":"space-around"
         });
+        // 移动端左右滑动提示显示
+        $('.prompt-img').show();
     }
     else
     {
@@ -82,11 +84,22 @@ function changeSList() {
             "width":"100%",
             "justify-content":"space-between"
         });
+        // 移动端左右滑动提示隐藏
+        $('.prompt-img').hide();
     }    
 }
 window.onresize = function(){
     changeSList();
 };
+// 移动端左右滑动提示
+$(function(){
+  function promptImg(){
+    // $('.prompt-img').css({'opacity':0}).hide(1000);
+    $('.prompt-img').fadeOut(1000);
+  }
+  setTimeout(promptImg,3500);
+});
+
 var screeningData = {
     isMobile:false,
     searchL:false,

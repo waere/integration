@@ -566,26 +566,22 @@ $(function(){
     });
     // 显示隐藏
     $('.live-call').hover(function(){
-        // $('.live-callbox').stop().show(500);
         $('.live-callbox').css({
             'opacity':1,
             'width':'214px'
         })
     },function(){
-        // $('.live-callbox').stop().hide(500);
         $('.live-callbox').css({
             'opacity':0,
             'width':'0'
         })
     });
     $('.live-ewma').hover(function(){
-        // $('.live-ewmabox').stop().show(500);
         $('.live-ewmabox').css({
             'opacity':1,
             'width':'147px'
         })
     },function(){
-        // $('.live-ewmabox').stop().hide(500);
         $('.live-ewmabox').css({
             'opacity':0,
             'width':'0'

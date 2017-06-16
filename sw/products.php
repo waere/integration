@@ -112,6 +112,9 @@
 
     <!--产品列表-->
     <div class="allproducts" id="allproducts">
+        <div class="prompt-img">
+            <img src="images/Finger-sliding.gif" alt="">
+        </div>
         <div class="productsBox" v-for="pitem in cplist">
             <!--列表头部-->
             <div class="proBox">

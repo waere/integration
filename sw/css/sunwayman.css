@@ -1890,12 +1890,24 @@ a:visited{
 }
 
 .allproducts{
+    position: relative;
     width:100%;
     margin-top: 10px;
     margin-bottom: 10px;
     float: left;
 }
-
+.prompt-img{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    width: 173px;
+    height: 125px;
+    z-index: 20;
+}
+.prompt-img img {width: 100%;}
 .productsBox{
     width: 100%;
     font-size: 12px;
