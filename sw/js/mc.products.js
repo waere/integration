@@ -565,7 +565,7 @@ var proListObj = {
                   pdburl:''
               },
               {
-                  ptitle:'T40CS',
+                  ptitle:'T40CS PLUS',
                   pdec:'<p>中白光远射型侧按战术手电</p><p>航天级铝合金制造</p><p>有效射程达500米</p>',
                   pimg:'images/p-T40CS.png',
                   pnew:false,
@@ -577,8 +577,8 @@ var proListObj = {
                   pusetime:'续航时间：<span>30流明 (31 小时)</span>',
                   pled:'LED：<span>CREE XM-L2 LED</span>',
                   pbretty:'使用电池：<span>4节AA电池</span>',
-                  pmoreurl:'#',
-                  pbuyurl:'http://item.jd.com/11646351145.htm',
+                  pmoreurl:'T40CS-PLUS.php',
+                  pbuyurl:'http://item.jd.com/11646351145.html',
                   pdburl:''
               },
               {
@@ -594,7 +594,7 @@ var proListObj = {
                   pusetime:'续航时间：<span>30流明 (31 小时)</span>',
                   pled:'LED：<span>CREE XM-L2 LED</span>',
                   pbretty:'使用电池：<span>4节AA电池</span>',
-                  pmoreurl:'#',
+                  pmoreurl:'T60CS.php',
                   pbuyurl:'http://item.jd.com/12067853458.html',
                   pdburl:''
               }

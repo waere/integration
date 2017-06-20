@@ -152,14 +152,14 @@ var productsNavObj = {
                         mimg: "images/p-D40A.png"
                     },
                     {
-                        mtitle: "T40CS",
-                        murl: "#",
+                        mtitle: "T40CS PLUS",
+                        murl: "T40CS-PLUS.php",
                         mdesc: "中白光远射型侧按战术手电<br>航天级铝合金制造<br>有效射程达500米",
                         mimg: "images/p-T40CS.png"
                     },
                     {
                         mtitle: "T60CS",
-                        murl: "#",
+                        murl: "T60CS.php",
                         mdesc: "可充电三头侧按手电<br>三孔优质金属光面反光杯<br>增韧超清晰钢化玻璃镜片",
                         mimg: "images/p-T60CS.png"
                     }
@@ -227,25 +227,25 @@ var newProductsNavObj = {
         {
             npTitle:'C22C',
             npUrl:'C22C.php',
-            npImg:'images/p-C22C.png',
+            npImg:'images/p1-C22C.png',
             npDesc:'业界领先，手电、L型灯和谐统一<br>380流明 双灯同亮“夜行者<br>梯形螺纹，顺滑可靠'
         },
         {
             npTitle:'C23C',
             npUrl:'C23C.php',
-            npImg:'images/p-C23C.png',
+            npImg:'images/p1-C23C.png',
             npDesc:'充电轻触系列<br>智能USB充电系统<br>经典黑银两色'
         },
         {
             npTitle:'T20CC',
             npUrl:'T20CC.php',
-            npImg:'images/p-T20CC.png',
+            npImg:'images/p1-T20CC.png',
             npDesc:'暴力唯美BOSS级手电<br>智能USB充电系统<br>航空T6级铝材'
         },
         {
             npTitle:'T25C',
             npUrl:'T25C.php',
-            npImg:'images/p-T25C.png',
+            npImg:'images/p1-T25C.png',
             npDesc:'凸透镜的光明之旅<br>光学凸透镜系统<br>浪漫酒吧射灯'
         }
     ]
