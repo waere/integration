@@ -629,7 +629,7 @@
                         在任意亮度，按下尾部按钮，即可彻底关闭手电。
                     </div>
                     <div class="col-xs-12 col-sm-3 usegrid-ico">
-                        <span class="iconfont">&#xe620; </span>
+                        <a href="javascript:download('file/T40CS-PLUS-Instructions.doc', 'T40CS-PLUS-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                     </div>
                 </div>
             </div>

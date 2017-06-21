@@ -70,6 +70,19 @@ function changeSixList()
         $(this).css("right",$(document).width()-($(".index-lang-box").width()*2+$(".index-lang-box").offset().left)+"px");
     });
 }
+
+// 文件下载
+function download(href, title) {
+    if(href == '' || title == ''){
+        return false;
+    }else{
+       const a = document.createElement('a');
+        a.setAttribute('href', href);
+        a.setAttribute('download', title);
+        a.click(); 
+    }                    
+}
+
 /**
  * 产品底部那6个翻转图片的数据
  */

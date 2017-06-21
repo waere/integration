@@ -666,7 +666,7 @@
                         1、白灯分极高、高、中、低、爆闪、SOS、航闪、月光模式八档，长按头部按键将循环；<br/>2、当手电在极高、高、中、低四档点亮时，双击可调出爆闪，3秒内再次双击调出SOS，如此循环。<br/>中白光操作方法：<br/>3、月光模式说明：在关机且未锁键的情况下长按关机进入月光模式，再按进入普通调光。<br/>4、手电按键锁定功能。<br/><br/>*短按一次按键，再迅速长按（两秒以内），LED闪烁一次，即可锁定按键，解锁亦然；<br/>*防止手电置于口袋，旅行袋，背包中无意打开手电，造成不必要的照明浪费，损耗电池，耽误工作
                     </div>
                     <div class="col-xs-12 col-sm-3 usegrid-ico">
-                        <span class="iconfont">&#xe620; </span>
+                        <a href="javascript:download('file/T25C-Instructions.doc', 'T25C-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                     </div>
                 </div>
             </div>

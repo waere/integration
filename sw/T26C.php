@@ -540,7 +540,7 @@
                     1、白灯分极高、高、中、低、爆闪五档，长按头部按键循环；<br/>2、当白灯在极高、高、中、低四档点亮时，双击可调出爆闪                    
                 </div>
                 <div class="col-xs-12 col-sm-3 usegrid-ico">
-                    <span class="iconfont">&#xe620; </span>
+                    <a href="javascript:download('file/T26C-Instructions.doc', 'T26C-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                 </div>
             </div>
         </div>

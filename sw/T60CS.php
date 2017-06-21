@@ -628,7 +628,7 @@
                         在手电处于关机状态的七秒后，快速短按再长按一次，手电即可进入锁定状态，即开关不能打开手电；如要解锁，再次短按再长按开关一次即可。                      
                     </div>
                     <div class="col-xs-12 col-sm-3 usegrid-ico">
-                        <span class="iconfont">&#xe620; </span>
+                        <a href="javascript:download('file/T60CS-Instructions.doc', 'T60CS-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                     </div>
                 </div>
             </div>

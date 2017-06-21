@@ -519,7 +519,7 @@
                     手电具有：极高、高、中、低、爆闪五档。<br/>（1）手电常亮档为极高、高、中、低四档，长按头部按键循环；<br/>（2）当手电在极高、高、中、低四档点亮时，双击可调出爆闪。
                 </div>
                 <div class="col-xs-12 col-sm-3 usegrid-ico">
-                    <span class="iconfont">&#xe620; </span>
+                    <a href="javascript:download('file/M25CTI-Instructions.doc', 'M25CTI-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                 </div>
             </div>
         </div>

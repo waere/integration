@@ -624,7 +624,7 @@
                     *短按一次按键，再迅速长按（两秒以内），LED闪烁一次，即可锁定按键，解锁亦然；<br/>
                 </div>
                 <div class="col-xs-12 col-sm-3 usegrid-ico">
-                    <span class="iconfont">&#xe620; </span>
+                    <a href="javascript:download('file/C13R-Instructions.doc', 'C13R-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                 </div>
             </div>
         </div>

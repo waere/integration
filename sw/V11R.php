@@ -478,7 +478,7 @@
                     本手电采用业界领先的数字传感磁控环无级调光技术，轻旋磁控调光环从左至右，亮度从低到高，即可调到您需
                 </div>
                 <div class="col-xs-12 col-sm-3 usegrid-ico">
-                    <span class="iconfont">&#xe620; </span>
+                    <a href="javascript:download('file/V11R-Instructions.doc', 'V11R-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                 </div>
             </div>
         </div>

@@ -681,7 +681,7 @@
                         （1）装上电池时红灯会闪烁提示电压，闪烁次数为电压整数部分，如3-4v之间闪3下，电压降到3V时红色指示灯常亮<br/>（2）使用4.2V电压，当电压降到2.8V时进入低电压保护程序，红色指示灯快闪，白灯慢闪5次后熄灭。
                     </div>
                     <div class="col-xs-12 col-sm-3 usegrid-ico">
-                        <span class="iconfont">&#xe620; </span>
+                        <a href="javascript:download('file/T20CC-Instructions.doc', 'T20CC-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                     </div>
                 </div>
             </div>

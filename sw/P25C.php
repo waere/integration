@@ -543,7 +543,7 @@
                     在电筒开启状态下，长按调档按钮超过一秒，电筒将会开启爆闪，如果需要选择更多的特殊档位，只需要长按调档按钮超过一秒即可在“爆闪---SOS---信标功能”顺序切换。如果需要退出特殊档位并恢复当前亮度，只需按一下调档按钮。<br/><br/>注: P25C具有自动记忆功能，再次激活电筒将自动进入已选亮度或档位（SOS和信标功能除外）
                 </div>
                 <div class="col-xs-12 col-sm-3 usegrid-ico">
-                    <span class="iconfont">&#xe620; </span>
+                    <a href="javascript:download('file/P25C-Instructions.doc', 'P25C-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                 </div>
             </div>
         </div>

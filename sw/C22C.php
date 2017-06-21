@@ -675,7 +675,7 @@
                         2、当白灯在极高、高、中、低四档点亮时，双击可调出爆闪，3秒内再次双击调出SOS，如此循环。<br/>中白光操作方法：<br/>1、中白灯分高、中、低、爆闪、SOS五档，当切换到中白灯时，长按头部按键为高中低循环；<br/>2、当中白灯分高、中、低亮度模式时，双击爆闪，3秒内再次双击为SOS循环。
                     </div>
                     <div class="col-xs-12 col-sm-3 usegrid-ico">
-                        <span class="iconfont">&#xe620; </span>
+                        <a href="javascript:download('file/C22C-Instructions.doc', 'C22C-Instructions.doc');"><span class="iconfont">&#xe620; </span></a>
                     </div>
                 </div>
             </div>
